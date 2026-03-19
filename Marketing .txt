@@ -1,0 +1,2228 @@
+﻿Notes
+Past present future analysis
+Identify risks, short term (1-2yrs) long term (3-10yrs)
+ 
+Don’t generalize, sg context
+Proper citation
+
+
+Proposals
+Proposal ideas (3each)
+
+
+Sydney: 
+
+
+1. Target audience: children aged between 0 months to 6 years old 
+A subscription-based child care support service that helps busy parents with non-academic needs, such as:
+* At-home baby care assistance
+* Child-safe cleaning services
+* Baby sleep and routine support
+* On-demand babysitting (certified carers)
+Possible companies: Mothercare
+
+
+2. Target audience: teenagers aged between 13 to 16 years old 
+A teen-only lifestyle & wellness membership offering:
+* Sports and movement classes
+* Creative workshops (dance, music, art)
+* Safe social spaces (offline + moderated online)
+Inspired by already existing apps such as TikTok, BeReal, wellness studios
+I think this would be good because teenagers now want independence and don’t want “school-like” programmes. It is important to socialise safely on’t want “school-like” programmes
+
+
+3. Target audience: adults aged 18 and above (take note of generational gaps) 
+
+
+ClassPass: I feel like in this day and age, even with the generational gaps, promoting a healthy lifestyle is constant throughout all age groups, especially among the adults. Sometimes when I go to pilates studios, I notice that there are people of all age groups, male or female, coming to classes → since ClassPass is already an existing app, we can come up with ways to improve the app, such as: 
+
+
+* Content curated by generation
+* Flexible, pay-as-you-go model instead of subscribing to a package and it would be wasted if the package expires 
+* Combines wellness + career growth
+Isaac:
+4. “Social Training Wheels” Card Deck
+What it is
+A physical deck of cards that guide real-world social interaction.
+Examples
+* “Start a conversation with someone new”
+
+* “Give a genuine compliment”
+
+* “Survive awkward silence”
+
+Why this idea?
+   * With children absorbed into social media and learning life skills from there, this provides a new way for them to learn how to interact and communicate with others from young
+   * Easy and fun way for parents to teach their children communication skills
+
+
+
+
+
+
+5. Skill Trial Boxes
+What it is
+ One-time skill trial kits (no subscriptions).
+Examples
+   * photography basics kit
+
+   * music production starter
+
+   * baking essentials box
+
+Why it works
+      * Low commitment
+
+      * Encourages exploration
+
+      * Very retail-friendly
+
+6. Stress-Relief Office Product
+What it is
+ A small, quiet desk-based stress tool:
+         * hand grip
+
+         * textured pad
+
+         * silent fidget object
+
+Why it works
+            * No stigma
+
+            * Practical and affordable
+
+            * Fits corporate gifting and retail
+
+
+Yong En
+               1. Healthy 365 (Add feature: Physio-Buddy)
+Target Audience: The general SG population above 21 using Healthy 365 app
+Patients undergoing physiotherapy, seniors encouraged by doctors to do home exercises, caregivers managing elderly parents’ recovery
+
+
+What: A feature that uses machine learning to sense head, torso, leg, arm etc. and track their movement and ensure that they are doing the exercises correctly. (posture, positioning)
+Can also be used in collaboration with doctors to ensure they are doing their physiotherapy properly. Record logs of patient doing the physiotherapy daily and sending updates to their doctor.
+Features: 
+               * AI posture feedback
+
+               * Daily physio logs
+
+               * Doctor-linked progress reports (opt-in)
+Gap: Currently, Health 364 tracks what users do and does NOT ensure how well they do it. Using physio-buddy creates accountability and adherence to physiotherapy routines and exercises. This maximises the user returns on exercise and physiotherapy.
+Possible companies/ partners: Government/ Clinics
+
+
+                  2. QuietHours” – Pay-Per-Use Focus Pods in Singapore
+Target Audience: University & polytechnic students, professionals, job seekers attending online interviews
+What: QuietHours is a network of small, sound-proof focus pods placed in high-traffic locations (malls, MRT interchanges, libraries, campuses, CBD) that people can rent by the minute for:
+                  * Studying
+
+                  * Online interviews
+
+                  * Important calls
+
+                  * Deep focus work
+Gaps: 
+                     * Cafés are noisy
+
+                     * Libraries are crowded
+
+                     * Co-working spaces are expensive & commitment-heavy
+Yet many people frequently need:
+                        * 30–90 minutes of quiet, private space
+                        * Not a full office or membership
+Current options fail because they are 
+                        * Too noisy
+                        * Too expensive
+                        * Inconvenient 
+There is a gap for short-term, on-demand quiet space. 
+Prisha 
+                        1. Air Up Singapore - Premium scent based Hydration system 
+Market type: product for singapore market (Air Up exists globally, but no retail presence in SG)
+SG customers show rising demand for premium-health conscious offerings, with wellness spendings increasing significantly. Can even reduce usage of plastic bottles from bottled mineral water and sugary drinks.
+Target audience: 
+                        1. Health conscious millennials/GenZ who are digitally savvy and willing to pay premium prices for innovative wellness (can control health and sugar intake, flavour without sugar)
+                        2. Targets people who don't drink enough water (they find plain water boring)
+                        3. Families with kids (easy hydration)
+Product description: a water bottle that comes with a scented pod that is inserted over the straw of the bottle. When the user drinks water through the straw he will smell the scent from the pod (e.g lychee) which makes the water taste lychee flavoured. It is seen as a zero-sugar hydration solution that aligns with SG’s health initiatives. Around $50 for a bottle and $5 for the pods.
+AirUp can be sold at fitness studios, healthy cafe partnerships, universities (schools), wellness programmes. Can establish presence through partnerships with retailers like Guardian, Watsons and exclusive pop-up booths. Offer localised flavour pods suited for Asian preference like lychee, yuzu, calamansi along with the existing range. 
+
+
+
+
+Focus on retail presence 
+Is there demand for it
+Is it so unique you cant create a following
+
+
+
+
+                        2. ElderTech Connect - Senior Friendly smart home consultation service
+Market type: not available in SG 
+
+
+SG has an ageing population. The silver digital gap is closing with seniors becoming more receptive to digital solutions. However, there's limited personalized consu;tation helping seniors integrate smart home tech safely and effectively.
+Target audience: seniors aged 65+ living independently who want to age in place safely OR sandwich generation adults form (33-55) who purchase smart home solutions for elderly parents
+Product description: A consultation service that accesses seniors homes and recommends appropriate smart home devices like medicine reminders, video doorbells, fall detection sensors. it’s different as it has in person support rather than phone only customer service. 
+
+
+                        3. premium pre-loved fashion market place 
+market type: modified 
+SG second hand luxury market is booming. while platforms like carousell exits, there is a trust gap in authentication and quality verification 
+target audience: affluent millennials (28-40) who value sustainability but are price conscious OR young professionals (22-30) who are seeking entry into luxury fashion 
+product description: a pre-owned luxury fashion platform combining online and personal verification centre in premium locations like Orchard and Marina Bay
+Rian:
+Too Good To Go – Surplus Food Rescue App
+( sustainability & climate-conscious consumption)
+What it is
+A massively popular food-waste reduction app that connects users to restaurants selling unsold food at cheap prices. Not operational in SG yet.
+Problem
+Singapore wastes ~700k tonnes of food yearly.
+Consumers want cheap meals, while restaurants want to clear excess food without losing money.
+Customer Profile
+                        * Age: 16–30
+
+                        * Students, young adults, eco-conscious buyers
+
+                        * Loves deals, discounts, sustainability
+
+                        * Eats out often
+
+Macro Factors
+                           * Environmental: govt pushes waste reduction
+
+                           * Social: trend of sustainable living
+
+                           * Economic: inflation → need cheaper food
+
+Micro Factors
+                              * Competitors: None in SG (first mover advantage)
+
+                              * Customers: budget-seekers, green consumers
+
+                              * Company: strong overseas reputation
+
+Marketing Angle
+“Eat well, save money, fight food waste.”
+FRESHSWAP BOX
+FreshSwap Box is a weekly subscription food-rescue box that collects restaurant, café, and supermarket surplus food and delivers it to customers at 50–70% cheaper than retail.
+
+
+Isaac
+
+
+Framework Laptop 16 – Singapore Market Entry
+1️⃣ Market Opportunity (Singapore Context)
+Singapore has:
+                                 * High laptop penetration among students and professionals
+
+                                 * Growing sustainability awareness
+
+                                 * Increasing interest in customisable tech products
+
+However, most laptops sold locally (e.g., Apple, Dell) operate in closed ecosystems with limited upgradeability, leading to faster replacement cycles and higher e-waste.
+This presents an opportunity for a modular, repairable premium laptop.
+________________
+
+
+2️⃣ Target Segment
+Primary Target:
+                                    * Tech-savvy university students
+
+                                    * Developers / engineers
+
+                                    * Sustainability-conscious professionals
+
+                                    * Gamers who value performance customisation
+
+Psychographics:
+                                       * Value long-term cost efficiency
+
+                                       * Support right-to-repair principles
+
+                                       * Prefer performance over ultra-thin aesthetics
+
+________________
+
+
+3️⃣ Product Concept for Singapore
+Framework Laptop 16 is a:
+                                          * Fully modular, upgradable laptop
+
+                                          * Customisable ports & GPU modules
+
+                                          * Long-term sustainable device
+
+For Singapore, positioning will focus on:
+“Buy once. Upgrade forever.”
+This differentiates it from conventional premium laptops that require full replacement every few years.
+________________
+
+
+4️⃣ Strategic Fit
+This proposal markets:
+                                             * A modified distribution strategy (stronger retail presence in SG)
+
+                                             * Emphasis on sustainability messaging
+
+                                             * Community-building among tech enthusiasts
+
+The product is viable using existing technology and aligns with Singapore’s push towards sustainability and digital innovation.
+
+
+ Olipop – Prebiotic Soda (US Brand)
+🥤 Olipop – Singapore Market Entry
+1️⃣ Market Opportunity (Singapore Context)
+Singapore consumers are:
+                                                * Increasingly health-conscious
+
+                                                * Reducing sugar intake
+
+                                                * Still strong consumers of soft drinks
+
+However, most sodas sold locally (e.g., Coca-Cola) are high in sugar or artificial sweeteners.
+There is limited availability of gut-health focused sodas in mainstream retail.
+________________
+
+
+2️⃣ Target Segment
+Primary Target:
+                                                   * Young adults (18–35)
+
+                                                   * Fitness-conscious consumers
+
+                                                   * Café & wellness trend followers
+
+Psychographics:
+                                                      * Care about gut health
+
+                                                      * Willing to pay premium for healthier alternatives
+
+                                                      * Influenced by social media wellness trends
+
+________________
+
+
+3️⃣ Product Concept
+Olipop is:
+                                                         * Low sugar
+
+                                                         * High fibre
+
+                                                         * Prebiotic soda
+
+                                                         * Natural ingredients
+
+Positioning:
+“Soda, but smarter.”
+
+
+Ember Smart Mug – Temperature-Controlled Mug
+☕ Ember Technologies – Singapore Launch
+1️⃣ Market Opportunity
+Singapore:
+                                                            * Huge coffee & tea culture
+
+                                                            * Office workers constantly reheating drinks
+
+But:
+                                                               * No strong smart mug retail presence locally
+
+                                                               * Most mugs are basic utility products
+
+________________
+
+
+2️⃣ Target Segment
+Primary:
+                                                                  * Office professionals
+
+                                                                  * Café lovers
+
+                                                                  * Premium lifestyle consumers
+
+Psychographics:
+                                                                     * Appreciate convenience
+
+                                                                     * Value premium lifestyle tech
+
+                                                                     * Willing to pay for small luxury upgrades
+
+________________
+
+
+3️⃣ Product Concept
+Keeps drink at exact preferred temperature for hours.
+Positioning:
+“Perfect temperature. Every sip.”
+
+
+RIAN -
+"ThermoVest SG" – Peltier-Powered Active Cooling Apparel
+1. Market Analysis
+Singapore’s tropical climate is becoming increasingly extreme, with 2024 and 2025 recording record-high heat indices. Heat stress is a major concern for outdoor workers, athletes, and the elderly. While "cool-wear" fabrics exist, they are passive and rely on sweat evaporation, which is ineffective in Singapore’s high humidity. There is a clear market gap for active, portable cooling hardware that is wearable and stylish.
+2. Target Market Segments
+•Segment A (Outdoor Professionals): Delivery riders, construction supervisors, and landscape architects who spend 6+ hours daily in the sun.
+•Segment B (Active Seniors): Older adults who want to remain active in community parks but are vulnerable to heatstroke.
+3. Product Description
+ThermoVest SG is a lightweight, smart vest embedded with Peltier-effect semiconductor modules.
+•Active Cooling: Unlike fans that blow hot air, the Peltier modules create a "cold plate" effect against the skin, lowering perceived body temperature by up to 10°C instantly.
+•Hardware Design: Powered by a slim, high-capacity battery pack (8-hour life) and features breathable, antimicrobial mesh.
+•Smart Sensors: Includes a built-in "Heat-Shield" sensor that monitors the wearer's heart rate and skin temperature, automatically adjusting cooling intensity or alerting the user to seek shade via a haptic pulse.
+
+
+"Komorebi" – The All-in-One Modular Space-Saving Kitchen Unit
+1. Market Analysis
+Singapore’s residential landscape is dominated by high-rise HDB flats, where space is a premium. As average household sizes decrease and property prices per square foot rise, there is a significant demand for space-optimizing hardware. While modular furniture exists, there is no comprehensive "plug-and-play" kitchen unit that combines high-tech Japanese space-saving principles with smart appliances. Current solutions require extensive custom renovation, which is costly and permanent.
+2. Target Market Segments
+•Segment A (First-Time Homeowners): Young couples (aged 25–35) moving into new 2-room or 3-room BTO (Built-To-Order) flats who prioritize aesthetic minimalism and functional efficiency.
+•Segment B (Studio/Micro-Apartment Dwellers): Professionals living in urban central areas who value high-end, compact technology that maximizes their limited living area.
+3. Product Description
+The Komorebi Unit is a freestanding, modular kitchen "island" inspired by Japanese capsule living.
+•Physical Features: A rotating central core that hides or reveals appliances (e.g., a hidden induction hob, a built-in microwave, and a vertical herb garden) depending on the time of day.
+•Integrated Tech: Includes a retractable dining surface and a built-in "Nano-Sink" that recycles greywater for the unit's integrated self-watering plants.
+•Value Proposition: It transforms a kitchen into a workspace or social area in seconds, eliminating the need for separate dining and work furniture in small flats.
+
+
+1. Shift from "Custom Built" to "Flat-Pack Product"
+The biggest cost in Singapore's furniture market is custom carpentry and on-site labor.
+                                                                        * The Strategy: Design the Komorebi as a standardized, freestanding unit (like an IKEA kitchen island but with integrated tech).
+                                                                        * Manufacturing: By mass-producing 3-4 standard sizes that fit typical HDB 2-room and 3-room BTO layouts, you achieve economies of scale that custom carpentry cannot match.
+2. The "Core + Add-on" Pricing Model
+Instead of selling a fully-loaded S$10,000 unit, use a tiered pricing structure:
+                                                                        * The "Core" Unit (Affordable Base): A high-quality, space-saving kitchen island with a sink and basic storage for S$1,499 – S$1,999.
+                                                                        * Modular "Plug-ins": Users can buy appliances (induction hob, microwave, vertical garden kit) separately over time as their budget allows. These appliances "snap" into pre-wired slots in the unit.
+3. Strategic Partnerships for Affordability
+To lower the price for the consumer, the business can leverage Singapore’s unique ecosystem:
+                                                                        * BTO Integration (The "HDB Partnership"): Partner with HDB to offer the Komorebi unit as an "Optional Component" for new BTO flats. This allows homeowners to pay for the unit using their CPF (Central Provident Fund) or include it in their HDB housing loan, making the monthly cost negligible.
+                                                                        * Bank Financing: Offer 0% interest-free installment plans (e.g., S$80/month over 24 months) through major local banks like DBS or UOB.
+
+
+
+
+| Feature            | Traditional Custom Kitchen        | **Komorebi SG (Your Idea)**              |
+| :----------------- | :-------------------------------- | :--------------------------------------- |
+| **Cost**           | S$15,000 – S$30,000 (Renovation)  | **S$1,500 – S$3,500 (Product)**          |
+| **Installation**   | 4–6 weeks of construction dust.   | **2-hour "Plug & Play" setup.**        |
+| **Portability**    | Permanent (stays with the house). | **Mobile (can be moved to a new home).** |
+| **Sustainability** | High waste during demolition.     | **Recyclable modular components.**       |
+
+
+
+
+
+
+
+
+
+
+MOXI ROBOT
+
+
+https://www.diligentrobots.com/moxi        
+
+
+Just a quick idea - friendly robot implemented in Medical City Dallas and Medical City Denton maybe can market for hospitals in Singapore
+
+
+
+
+
+
+
+
+
+
+I would like to propose a modification to conventional shoe storage boxes by integrating an automatic humidity regulation system. In humid climates such as Singapore, high moisture levels can lead to mold growth, odor, yellowing, and material deterioration in shoes, especially leather and premium sneakers. Existing solutions like silica gel are passive, inconsistent, and require frequent replacement.
+My proposed solution is a Smart Shoe Box equipped with a built-in humidity sensor and a compact dehumidifying module. The system will automatically activate when humidity exceeds a preset threshold (e.g., 60%) and maintain an optimal internal range of approximately 45–55%. The device can be USB-powered or rechargeable and designed as a modular base compatible with standard transparent shoe boxes.
+This solution offers automated, low-maintenance protection for shoe owners and sneaker collectors, addressing a practical and climate-specific problem in a simple, scalable way.
+
+
+
+
+
+
+
+
+Week 2
+Week 2 
+
+
+Golden Light is a product line from Sheng Sheng F&B Industries Pte Ltd (SSFB). SSFB has introduced a new premium range of fruit jams. While this is exciting, SSFB faces both challenges and opportunities in the market. Your job is to study this case and research the sweet spread category. Then, answer the following questions:
+
+
+1.  Think about the big trends in society that could affect Golden Light. Use what you’ve learned about the macro-environment. Share your insights on these key trends and explain how they might impact Golden Light’s performance in the sweet spread category.
+
+
+Political: 
+                                                                        * the war in Ukraine had upended global markets and supply chains which has a direct impact on SSFB’s operations. 
+                                                                        * the increasing US-China tensions and constantly rising tariffs, ongoing COVID-19 measures in China, all place pressure on customer that were unfavourbale towards discretionary spending → affects suppliers 
+
+
+Socio-cultural: 
+                                                                        * Perhaps the “war on diabetes” campaign has an effect on people’s perspective on sugary foods, drinks or even spreads. 
+                                                                        * This might alter their preferences to opt for the option that has less sugar or some might just opt for a healthier alternative such as making their own spreads at home and cater the sweetness level to their liking. 
+
+
+Demographics: 
+                                                                        * According to the article and statistics provided, the target age group for people who buy spread are anyone below 55 years old. This is understandable as older people tend to avoid sweeter foods. There was a slight skew towards females in terms of gender. By income group, most of them were the majority purchasers of sweet spreads. 
+
+
+
+
+
+
+Factor
+	Key Trends (from case)
+	Impact on Golden Light’s Performance
+	Political
+	• Singapore’s “War on Diabetes”
+	
+
+	• Strong government focus on public health and sugar reduction
+	• Favourable long-term environment for lower-sugar, higher-fruit spreads
+	
+
+	• Golden Light’s premium jams align with health objectives, even though spreads are not yet heavily regulated
+	
+
+	
+
+	• Opportunity to position as a health-conscious alternative before stricter regulations emerge
+	
+
+	
+
+	Economic
+	• Inflation and recession concerns
+	
+
+	• Rising production costs due to supply-chain disruptions
+	
+
+	
+
+	• Consumers more cautious with discretionary spending
+	• Cost pressures from higher fruit content may squeeze margins
+	
+
+	• Premium products face resistance, but Golden Light’s slightly lower price than St Dalfour positions it as an “affordable premium”
+	
+
+	
+
+	• Risk of consumers trading down to house brands during economic uncertainty
+	
+
+	
+
+	Social
+	• Growing health consciousness
+	
+
+	• Preference for product quality and convenience
+	
+
+	
+
+	• Premiumisation trend among affluent consumers
+	• Supports Golden Light’s premium, lower-sugar positioning
+	
+
+	• However, weaker appeal to younger consumers limits long-term growth
+	
+
+	
+
+	• Lack of strong brand associations reduces emotional and social relevance
+	
+
+	
+
+	Technological
+	• Rapid growth of online grocery shopping
+	
+
+	• Algorithms favour well-known brands
+	
+
+	
+
+	• Convenience-driven digital purchases
+	• Low brand awareness hurts online visibility
+	
+
+	• Difficulty competing with dominant brands and house brands on e-commerce platforms
+	
+
+	
+
+	• Opportunity to use digital channels for education and storytelling to explain health and quality benefits
+	
+
+	
+
+	Environmental
+	• Rising concern over natural ingredients and sustainability
+	
+
+	• Supply-chain vulnerabilities affecting food production
+	• Higher fruit content aligns with demand for natural, “clean-label” products
+	
+
+	• Sustainability not clearly communicated, weakening differentiation
+	
+
+	
+
+	• Potential to strengthen brand equity by highlighting responsible sourcing
+	
+
+	
+
+	Legal
+	• Food labelling standards
+	
+
+	• Future potential tightening of sugar-related regulations
+	• Current labelling (“Contains 60% fruit”) may undermine perceived quality compared to competitors
+	
+
+	• Future sugar regulations could favour Golden Light’s formulation over traditional high-sugar jams
+	
+
+	
+
+	
+
+
+
+
+
+2. Now think about the micro-environmental factors directly related to Golden Light in the sweet spread category. Share your insights on these factors and explain how they might influence Golden Light.
+
+
+3. Based on your answers in Q1 and Q2, do you think it was a good idea for Sheng Sheng to launch this premium range of fruit jams? Use facts from the case and your analysis to support your opinion.
+
+
+Don't repeat the facts, stick to the rubric , look for insights specific to the Singapore market.Do the citations properly , stick to the time frame.Use evidence to support your conclusion about the feasibility of this strategy 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Week 3
+Tutorial Question
+1. Your team is tasked to review the case study video “agape Little Uni.: Children are our
+future”:
+1.1. Based on your research and the case information about the early childhood
+Industry:
+a. What are all the possible segmentation variables for agape Little Uni. to
+use to segment this market? Please elaborate on why you think these
+variables are suitable to segment the early childhood industry. YE
+b. From the whole list of possible segmentation variables identified by your
+team, what is the optimal choice of segmentation variable(s) for agape Little
+Uni. to use to segment the Singapore market? Please elaborate on your
+Stand. S
+c. What targeting strategy should agape Little Uni. use in the Singapore
+Market? R
+d. Based on your recommended segmentation variables, which segment(s)
+should agape Little Uni. target? P
+
+
+1.2. Based on your review of the case and publicly information like agape's website and social media pages:
+a. What are agape Little Uni.'s current positioning and differentiation?
+b. Are agape Little Uni.'s current positioning and differentiation appropriate
+for the target segment(s) that you have chosen? Please elaborate on your
+stand. If your stand is that the current positioning and/or differentiation are
+not appropriate, what can agape Little Uni. do to match the needs and wants
+of your chosen target segment(s)? 
+Weel 4
+Solution, feature, objective and impact
+
+
+Tutorial
+Question
+
+
+1.Refer to the R.E. Tech case. Your team Has Been Assigned To Help Mr. Chan With the design of the new vending machine to distribute fresh salads in Singapore. Your team should be prepared to explain your rationale of your design based on the information given or additional research that you might have done
+
+
+
+
+Prisha 
+
+
+“gamification”
+An interactive touchscreen interface that gamifies the purchasing experience 
+How it works:
+                                                                        * Employees scan a QR code or tap their employee card to create a personal profile
+                                                                        * Each purchase earns "health points" based on nutritional value (more vegetables, lean proteins = more points)
+                                                                        * Points unlock achievements, badges, and rewards (free toppings, discounts, company wellness program credits)
+                                                                        * Weekly challenges ( "Try 5 different salads this week," "Eat 3 servings of leafy greens")
+                                                                        * Leaderboards show top healthy eaters in the company (anonymized if preferred)
+                                                                        * AI nutritionist feature provides personalized recommendations based on purchase history and health goals
+                                                                        * Nutrition info
+                                                                        * Build-Your-Own option: Interface allows customers to select base greens, proteins, toppings, and dressings from available compartments, with robotic dispensing system assembling custom salads, portions
+                                                                        * Educational pop-ups share nutrition tips and health benefits while customers wait
+                                                                        * 
+
+AI Chatbot 
+                                                                        * Voice-activated assistant: "Hey NutriBot, what should I eat today?"
+                                                                        * Natural language queries: "Show me iron-rich options" or "I'm feeling sluggish, what helps?"
+                                                                        * Answers nutrition questions while you shop: "Is avocado good for heart health?"
+                                                                        * Multi-language support: English, Mandarin, Malay, Tamil
+Rian 
+                                                                        1. “Freshness and Safety Automation”
+A smart monitoring + dispensing system that ensures salads are always fresh, safe, and high-quality.
+How it works:
+                                                                        * IoT sensors in every ingredient compartment track temperature, humidity, and spoilage levels in real time
+
+                                                                        * Machine automatically updates the menu based on freshness data (removes ingredients that are unsafe or expiring soon)
+
+                                                                        * Freshness Score displayed for each salad (0–100), helping customers choose the freshest option
+
+                                                                        * Auto-lock safety feature freezes any ingredient that goes out of safe temperature range
+
+                                                                        * Push notifications sent to staff when restocking is needed
+
+                                                                        * Transparent ingredient windows allow users to visually see the greens and toppings
+
+                                                                        * Predictive analytics estimate peak lunch/dinner demand and optimise dispensing speed
+
+                                                                        * LED indicators glow green/yellow/red depending on freshness status of compartments
+
+                                                                           2. “Health + Productivity Connection”
+A vending machine that links employee lifestyle, mood, and nutrition to encourage healthy eating.
+How it works:
+                                                                           * Syncs with company wellness apps, attendance systems, and step counters
+
+                                                                           * Rewards employees with discounts when wellness goals are met (e.g., 8,000 steps = 10% off)
+
+                                                                           * Quick 5-second check-in: users select how they feel (“tired”, “stressed”, “energised”)
+
+                                                                           * Machine recommends salads based on nutrients that support mood/energy
+
+                                                                           * Custom portion options: Small / Regular / High-Protein / Low-Carb
+
+                                                                           * Nutrient visualiser shows simple health insights: “Covers 40% of daily fibre needs”
+
+                                                                           * Team and department-wide challenge mode (weekly or monthly)
+
+                                                                           * Machine tracks healthy eating streaks and gives group rewards (e.g., charity donations, office perks)
+
+                                                                           * Multi-language UI: English, Mandarin, Malay, Tamil for inclusivity
+
+
+
+Possible solutions (Sydney)
+
+
+Smart freshness tracking system
+Time-stamp and sensor tracking to monitor how long each salad has been stored, with automatic alerts for removal or replacement to reduce wastage.
+
+
+Integrated data analytics dashboard
+Real-time sales and demand tracking by location to help operations managers optimize restocking and adjust salad offerings.
+Compact and modular machine design
+Slim or modular configurations to fit small staff pantries commonly found in offices.
+Healthy-eating guidance via user interface
+Touchscreen displays nutritional information, calorie counts, and healthy meal suggestions to support HR wellness programmes.
+
+
+
+
+
+
+Elderly care robot
+🤖 What LOVOT Is
+LOVOT is a companion robot designed to evoke feelings of love, comfort, and emotional connection — not to perform chores like a typical robot. It’s made to interact with people in a lifelike and engaging way, similar to a pet or friendly presence in the home.
+________________
+
+
+🌟 Main Technological Features
+🧠 1. Intelligent Behavior
+                                                                              * LOVOT doesn’t just repeat pre-programmed actions — it makes decisions in real time using deep learning and AI.
+
+                                                                              * It processes information from more than 50 sensors all over its body to behave in a way that feels natural and responsive.
+
+________________
+
+
+👀 2. Sensor Horn (Advanced Perception)
+                                                                                 * On top of its head is a horn-shaped sensor module that includes:
+
+                                                                                    * 360° camera — sees all around it
+
+                                                                                    * Sound-direction microphone — detects where voices come from
+
+                                                                                    * Thermal (heat) camera — can tell humans apart from objects
+
+                                                                                    * Light and brightness sensor — helps with vision and movement
+
+                                                                                       * These let LOVOT understand its surroundings and locate people in a room.
+
+________________
+
+
+👁️ 3. Expressive Eyes & Voice
+                                                                                          * LOVOT’s eyes are screens with multiple layers of lighting, giving natural-looking eye movements (blink speed, pupil size, gaze direction).
+
+                                                                                          * It makes realistic, emotional sounds using a voice synthesizer that responds to its situation.
+
+________________
+
+
+💗 4. Touch-Sensitive & Warm Body
+                                                                                             * The body is covered with touch sensors — LOVOT knows exactly where and how it’s being touched.
+
+                                                                                             * Its surface feels warm and soft, similar to cuddling a pet or baby, encouraging “skinship” (physical closeness).
+
+________________
+
+
+🚗 5. Autonomous Movement
+                                                                                                * LOVOT moves around on wheels and can:
+
+                                                                                                   * Navigate rooms freely
+
+                                                                                                   * Avoid obstacles smoothly
+
+                                                                                                   * Learn familiar spaces and return to its charging station by itself
+
+                                                                                                      * Its wheel modules can retract when picked up, so it’s safe to cuddle.
+
+________________
+
+
+🧠 6. Personalized Interaction
+                                                                                                         * LOVOT recognizes and remembers people — it can tell who its owner is and respond differently to different people.
+
+________________
+
+
+📶 7. Connectivity
+                                                                                                            * It supports Bluetooth, Wi-Fi, infrared communications, and near-field communication (NFC) — important for smart interactions and updates. 
+
+
+
+
+Features to be included
+                                                                                                            * Easy to use - 
+                                                                                                            * Voice activated with intelligence to interact with the seniors
+                                                                                                            * “Hey Lovot” 
+                                                                                                            * Link to fans / tech around the house to help them to turn on/off
+                                                                                                            * Add alexa type features (to be researched)
+                                                                                                            * Incorporate dialects / diff languages
+                                                                                                            * Safety features
+                                                                                                            * Check on the elderly whether they are ok/whether they fall
+                                                                                                            * Link to hospitals maybe?
+                                                                                                            * Emergency contacts
+                                                                                                            * Reminder features
+                                                                                                            * Remind them what to do
+                                                                                                            * Medicine reminders
+                                                                                                            * Engagement features
+                                                                                                            * Create cognitive games / activities to stimulate elderly’s mind
+                                                                                                            * Maybe team games/create a community
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Table of contents - 10min (2 mins max each)
+  
+
+Problem statement - 
+                                                                                                            * Subject to change - Singapore’s rapidly ageing population and increasing number of elderly living alone create a growing need for emotional companionship and daily social interaction, especially as caregivers face time constraints and rising stress levels. There is a need for a safe, low-maintenance companion solution that can support elderly well-being while easing caregiving demands.
+
+
+
+Our value:
+
+
+Market analysis -  Sydney, Prisha
+                                                                                                               * Market overview and opportunity 
+LOVOT operates at the intersection of smart home technology, silver economy (ageing population market) and social companion robotics. By 2030, it is estimated that 1 in 4 Singaporeans will be aged 65 and above. This marks a significant shift from 2010, when only 1 in 10 citizens were in this age group. We will be anticipating an increasing number of elderly living alone due to factors such as: 
+                                                                                                               * Smaller families 
+                                                                                                               * Dual income households
+                                                                                                               * Longer life expectancy 
+                                                                                                               * Looking at already existing solutions, most of them focus on emergency alerts, medical monitoring or physical caregiving. However, most fail to address emotional lonliness and cognitive stimulation at homne. Especially as caregivers work full-time/ have other commitments and are unable to care for their parents 24/7. Many elderly become lonely and This is where LOVOT comes in to fill the emotional care gap.
+
+
+Sources: 
+https://www.theactuary.com/2025/10/07/singapores-elderly-population-jumps-60-10-years#:~:text=The%20number%20of%20Singaporeans%20aged,2015%20to%2059.8%25%20in%202025.
+                                                                                                               * Macro and micro environment
+Macro (only PEST)
+                                                                                                               1. Political 
+                                                                                                               * There is a strong government push for ageing in place. For example, Ministerial Committee on Ageing (MCA) launched its first Action Plan for Successful Ageing in 2015, coordinating efforts relating to population ageing. 
+                                                                                                               * Smart Nation initiative supports AI adoption 
+                                                                                                               * Aligns with national direction
+
+
+                                                                                                               2. Social (trends) -maybe add one sentence hehe
+                                                                                                               * Rising loneliness among seniors 
+                                                                                                               * Many elderlies choose to stay at home rather than attending Active Ageing Centres due to mobility issues, social discomfort or desire for independence. 
+                                                                                                               * Home based companionship becomes attractive 
+
+
+                                                                                                               3. Economic 
+                                                                                                               * High purchasing power but price-sensitive middle class 
+                                                                                                               * Parent’s children are likely the key buyers 
+                                                                                                               * Positioned as a premium peace of mind solution 
+
+
+                                                                                                               4. Technological
+                                                                                                               * High smart device adoption 
+                                                                                                               * Growing acceptance of AI assistants 
+                                                                                                               * Low technological resistance in Singapore context
+Sources: 
+https://www.moh.gov.sg/others/resources-and-statistics/action-plan-for-successful-ageing/
+https://www.moh.gov.sg/newsroom/good-progress-in-the-implementation-of-age-well-sg/
+Micro (dont neeed)
+                                                                                                               1. Customer (Highest influence)
+At the end of the day, it will be the elderlies who are living alone that will use the product. But the economic buyer are the children of these elderlies (40-60, middle/upper income). Their children would purchase the product to seel peace of mind (marketing must appeal emotionally to them) and seniors seek simplicity and dignity (product design must be simple for seniors). It requires a dual value proposition: emotional reassurance + easy usability. 
+                                                                                                               2. Intermediaries and Partners (growth leverage)
+Some examples of partners could include hospitals, insurance providers, caregiving agencies, community centres, smart home ecosystem brands, etc. (can cut down if needed due to time constraint) This can be a strategic opportunity, B2B partnerships can increase trust, lower customer acquisition costs, improve credibility and enable bundled offerings (insurance companies). 
+                                                                                                               3. Risk factors (strategic constraints)
+LOVOT is a high tech production cost leading to data privacy concerns and cultural resistance to robotic companionship. Building trust and premium positioning are critical. 
+Pricing?
+
+
+
+
+
+
+
+
+                                                                                                               * Trends - Current status/statistics
+Fewer Elderly Want to Go to Ageing Centres
+In ageing societies like Singapore, the population aged 65 and above is projected to reach almost 1 in 4 residents by 2030 (around 24%). Around 20.7% of citizens in Singapore were aged 65 and above in 2025, and this is expected to rise to about 23.9% (nearly 1 in 4) by 2030.
+https://www.population.gov.sg/our-population/population-trends/longevity/
+Preference for Ageing in Place (Not in Ageing Centres)
+Some community care centres report low regular attendance rates, especially among:
+                                                                                                               * Seniors who are still mobile and independent
+                                                                                                               * Seniors who feel stigma about “being old”
+                                                                                                               * Seniors who prefer privacy
+They prefere independence over institutional socialisation.
+Approximately 85.9 % of seniors prefer to continue living in their existing homes rather than moving to care facilities or other living arrangements
+https://cos.sg/blog-post/senior-households-form-a-third-of-hdb-residents-up-from-one-quarter-in-2018/
+Increase in Seniors Living Alone
+In Singapore:
+                                                                                                               * About 1 in 4 seniors aged 65+ live alone or only with another elderly spouse.
+                                                                                                               * The number of seniors living alone has more than doubled over the past 10–15 years.
+                                                                                                               * In 2024, around 87,000 seniors aged 65+ were living alone, more than double the number from a decade ago
+                                                                                                               * The proportion of one-person senior households increased from 12.6 % in 2018 to 15.6 % in 2023/2024
+                                                                                                               * Historical data also shows seniors living alone grew from about 42,100 in 2014 to 87,200 in 2024
+Social isolation is linked to:
+                                                                                                               * Higher depression rates
+                                                                                                               * Faster cognitive decline
+                                                                                                               * Increased hospitalisation
+https://theindependent.sg/over-87000-senior-citizens-lived-alone-last-year-more-than-twice-as-many-as-a-decade-ago/
+https://www.moh.gov.sg/newsroom/addressing-loneliness-and-psychological-distress-among-seniors-living-alone/
+                                                                                                               * Consumer behaviour
+Preference for independence. Seniors increasingly want to remain at home to avoid burdening children and maintain dignity. A robot companion would feel less intrusive than a caregiver.
+Children as key decision-makers. Often, it’s not the elderly purchasing it’s usually their adult children. So they look for safety monitoring, fall detection, emergency alerts and a peace of mind. LOVOT with safety + hospital link features meets this emotional buying trigger.
+There is a growing acceptance of technology. Post-pandemic, seniors are more used to video calls, voice assistants, and smart devices. Thus, voice-activated systems like “Hey LOVOT” would reduce learning barriers and adding Alexa-type of smart home features would increase its usability.
+                                                                                                               * Competitors → differentiation pressure 
+Kebbi Social Robot
+An affordable social-engagement robot tailored to local Singapore seniors, built-in partnership with SilverActivities. It provides cognitive games (picture trivia, memory tasks), storytelling, and cultural content in English and Mandarin to entertain and engage elders.
+https://silveractivities.com/kebbi-social-robot?
+Strengths:
+                                                                                                               1. Designed specifically for social interaction & engagement for seniors.
+                                                                                                               2. Localised content (language/culture).
+Differentiation Pressure
+                                                                                                               1. Strong engagement with culturally relevant games and content
+                                                                                                               2. Lower emotional bonding as its mostly screens & games
+Why LOVOT is better?
+LOVOT elicits emotional attachment through touch, warmth, and expressive behaviours, not just cognitive interaction, which can better address loneliness.
+https://www.academicjobs.com/research-publication-news/social-robots-elderly-care-singapore-or-suss-study-or-academicjobs-2952?
+365NovaBot (by 365Robot Pte Ltd) consider LOONA 
+A multi-purpose healthcare/AI robot used in Singapore clinics and hospitals to support patient education, health tracking, and interactive information delivery.
+https://www.365robot.sg/singapore-healthcare-robot-365novabot/
+Strengths
+                                                                                                               1. Supports health education, cardiovascular health outreach, patient interaction
+                                                                                                               2. Deployed in clinical settings in Singapore’s health centres.
+Differentiation Pressure
+                                                                                                               1. Helps in health engagement & education
+                                                                                                               2. Not designed primarily for daily social companionship at home
+Why LOVOT is better?
+LOVOT focuses on emotional companionship and social support, which is more impactful for loneliness, emotional well-being, and everyday home life rather than clinical interaction.
+Dexie (Social / Physiotherapy Robot)
+A social robot deployed in eldercare homes (e.g., Lions Home for the Elders). It leads group activities liek physiotherapy exercises, karaoke, sing-along, and bingo sessions which fosters interaction and physical activity among seniors. 
+https://www.channelnewsasia.com/visual-stories/visual-stories/how-singapores-eldercare-industry-gearing-up-silver-tsunami-robots-and-smart-gadgets-5489716?cid=91902672-2309-4431-8604-3f7b0f585505&pos=0&
+Differentiation Pressure
+                                                                                                               1. Promotes group social engagement and exercise
+                                                                                                               2. Focused on facilities and group activity, not personal companionship
+Why LOVOT is better?
+LOVOT offers personalised, consistent companionship which includes emotional support at home and not just structured group programs
+Paro (Therapeutic Robotic Seal)
+A therapeutic animal-like robot used in Singapore eldercare facilities that responds to touch with sounds and blinking, helping reduce stress and evoke emotional responses.
+https://www.channelnewsasia.com/today/big-read/ai-technology-elderly-care-active-ageing-5477456?
+Strengths
+                                                                                                               1. Known for therapeutic emotional responses similar to a pet
+Differentiation Pressure
+                                                                                                               1. Strong emotional friendly responses
+                                                                                                               2. Limited smart adaptive AI behaviours and mobility
+Why LOVOT is better?
+LOVOT combines pet-like emotional warmth with AI learning, mobility, and personal interaction which gives it richer long-term engagement.
+                                                                                                               * SWOT
+Strengths 
+1. Emotional Connection
+                                                                                                               * Designed to evoke love, not perform chores.
+                                                                                                               * Warm body + expressive eyes create attachment.
+                                                                                                               * Can reduce loneliness (linked to lower depression risk).
+2. Advanced Technology
+                                                                                                               * 50+ sensors
+                                                                                                               * 360° perception
+                                                                                                               * Deep learning AI and personalized interaction
+3. Easy to Use
+                                                                                                               * Voice activated (“Hey LOVOT”)
+                                                                                                               * Multi-language & dialect support
+                                                                                                               * Can integrate with smart fans/lights
+4. Safety Features
+                                                                                                               * Fall detection possibility
+                                                                                                               * Emergency contact alert
+                                                                                                               * Potential hospital linkage
+Weakness
+1. High Cost
+                                                                                                               * Advanced robotics = premium pricing.
+                                                                                                               * May not be affordable for lower-income seniors.
+2. Tech Anxiety
+                                                                                                               * Some elderly fear complex devices.
+                                                                                                               * Requires onboarding support.
+3. Maintenance
+                                                                                                               * Charging, updates, repairs.
+Opportunities
+1. Rapid Ageing Population
+                                                                                                               * By 2030, 1 in 4 Singaporeans above 65.
+                                                                                                               * Japan and South Korea ageing even faster.
+2. Government Smart-Nation Push
+                                                                                                               * Support for ageing-in-place solutions integrated with AI
+                                                                                                               * Possible healthcare subsidies.
+3. Rising Mental Health Awareness
+                                                                                                               * Loneliness is recognized as a major issue so these companion robots could be preventive care tools.
+4. Community Engagement Features
+                                                                                                               * Cognitive games
+                                                                                                               * Virtual group games between LOVOT users
+                                                                                                               * Digital elderly communities
+Threats 
+1. Low-Cost AI Alternatives
+                                                                                                               * Smart speakers are cheaper (google home, alexa)
+2. Ethical Concerns
+                                                                                                               * Replacing human interaction?
+3. Rapid Tech Obsolescence
+                                                                                                               * AI evolves very fast so we need constant updates to remain competitive.
+
+
+
+
+Segmentation - Yong En
+Primary Market: Working Adult Children Caregivers (40–60)
+                                                                                                               * Still working full-time
+                                                                                                               * Elderly parents who live alone
+                                                                                                               * Household income middle-upper
+
+
+Primary Market (>210,000 caregivers)
+Demographic Segmentation
+Age: 40-60 (Gen X) (70% caregivers are 40 years old and above) acc
+Relationship: Children of elderly aged 70 years old (with or without disabilities)
+Median monthly household income: SGD 10000 - 20000 (SG median monthly household income above 12k) (Mean gross monthly income of $6429 in 2025 Q3)
+Employment: Working full-time (Many caregivers below 65 are still in employment)
+
+
+Why?
+There are around 210k caregivers in singapore, with 70% aged 40 yo and above. They take care of their elderly parents aged 70 and above. According to a study by the centre for research on successful aging, more than 74% of care recipients were above 70 years old. As LOVOT is more on the premium side, median monthly household income level should be medium-high, roughly 10k-20k based on the mean gross monthly income / individual of 6429 in the MOM summary income. Our target age group have worked longer and are more established (experience, pay increments, promotions) in their professions and according to a study by smartwealth, the age group 40-44 earns $7800, 7605,6825, 5005 as the age group increases. Additionally, annual disposable income per capita in Singapore is expected to rise from US$28,000 in 2020 to US$47,000 by 2030, an increase of 67.9%. As such, our target demographic segment has the financial capability to get a LOVOT.
+
+
+Expected growing need for informal caregivers https://www.moh.gov.sg/newsroom/projected-increase-in-informal-caregivers/
+
+
+Many sacrifice financial security, career opportunities and time to care for their loved ones, often putting their own physical and mental health at risk.
+
+
+Psychographic Segmentation
+Values: Strong filial responsibility, Family-orientated
+Lifestyle: Working full-time, balancing caregiving commitments and family commitments
+
+
+Behavioural Segmentation 
+Usage behaviour: frequent check in on elderly parents, active caregiving involvement
+Benefits sought: Peace of mind, reduced anxiety, emotional companionship for parents, safety for parents
+Readiness to adopt: Open to tech-based solutions, already using smartphones/ smart home systems
+
+
+Why? 
+Studies of Singaporean Chinese caregivers describe repaying parents’ past care, upholding family harmony, and expressing cultural or religious identity as key motivations, which are all filial and family‑oriented reasons.
+Qualitative work in Singapore finds that many caregivers see looking after parents as “the right thing to do” and part of being a “good child”, reflecting internalised filial beliefs.
+
+
+A 2025 study of older adult caregivers by SMU’s Centre for Research on Successful Ageing found that about 45% of these caregivers were working full‑time while also providing care.
+The same SMU brief summarises this as “almost 1 in 2 caregivers” in their sample being in full‑time employment.
+
+
+Still want parents to be well-taken care of and emotionally happy.
+As Singapore approaches being a "super-aged" society and the retirement and re-employment ages are being raised, more Singaporeans may soon find themselves in the same boat as Ms Ang – forced to balance their work and careers with mounting caregiving and work responsibilities. 
+With limited time and increasing stress, caregivers are often unable to be physically present with their elderly parents as much as they would like.
+LOVOT addresses this gap by:
+                                                                                                               * Reducing caregiving burden through automated reminders and monitoring
+
+                                                                                                               * Providing emotional companionship for elderly parents
+
+                                                                                                               * Offering caregivers peace of mind and reassurance when they cannot be present
+
+Rather than replacing caregiving, LOVOT enhances it — allowing caregivers to fulfil their responsibilities while managing professional and family obligations.
+
+
+
+
+Product - Isaac, Rian
+                                                                                                                  * Description of product (breakdown of features)
+                                                                                                                  * Differentiation & Positioning (Service + Image + Product)
+                                                                                                                  * Pricing and Promotion strategies
+                                                                                                                  * Feasibility (Technological, Financial)
+                                                                                                                  * Foreseeable Roadblocks
+
+
+
+
+Description of product
+
+
+Current features
+
+
+                                                                                                                  1. Intelligent AI features
+                                                                                                                  1. Deep learning system
+                                                                                                                  2. Makes real-time decisions
+                                                                                                                  3. Processes input from 50+ body sensors
+
+
+                                                                                                                  2. Advanced perception and imaging
+                                                                                                                  1. 360° camera
+                                                                                                                  2. Sound-direction microphone
+                                                                                                                  3. Thermal camera (detects humans)
+                                                                                                                  4. Light & brightness sensors
+
+
+        Function:
+                                                                                                                  * Locate people
+                                                                                                                  * Understand surroundings
+                                                                                                                  * Respond naturally
+
+
+                                                                                                                  3. Expressive emotional design
+                                                                                                                  1. Animated layered LED eyes
+                                                                                                                  2. Dynamic gaze, blinking, pupil dilation
+                                                                                                                  3. Emotion-based voice sounds
+
+
+        Function:
+                                                                                                                  * Creates lifelike personality
+
+
+
+
+                                                                                                                  4. Touch-Sensitive & Warm Body
+                                                                                                                  1. Full-body touch sensors
+                                                                                                                  2. Detects where/how it is touched
+                                                                                                                  3. Warm, soft surface
+
+
+
+
+        Function:
+                                                                                                                  * Encourage physical bonding
+
+
+                                                                                                                  5. Autonomous Movement
+                                                                                                                  1. Moves freely on wheels
+                                                                                                                  2. Avoids obstacles
+                                                                                                                  3. Returns to charging dock automatically
+                                                                                                                  4. Wheel retraction when lifted
+
+
+Proposed features
+
+
+
+
+                                                                                                                  1. Safety & Monitoring System
+                                                                                                                  1. Fall detection using motion + inactivity tracking
+                                                                                                                  2. Automatic “Are you okay?” check
+                                                                                                                  3. Emergency alert sent to caregiver
+                                                                                                                  4. SOS voice command
+
+
+
+
+        Function:
+                                                                                                                  * Safety for elderly + appeal to those who buy to take care of their elderly parents.
+
+
+                                                                                                                  2. Daily Reminder System
+                                                                                                                  1. Medicine reminders - try to link to clinic records
+                                                                                                                  2. Appointment reminders - link to clinic records
+                                                                                                                  3. Hydration reminders
+                                                                                                                  4. Routine prompts
+
+        Function:
+                                                                                                                     * Supports independent ageing
+ 
+                                                                                                                     3. Cognitive Engagement
+                                                                                                                     1. Memory games
+                                                                                                                     2. Community multiplayer games
+                                                                                                                     3. Leaderboard for all users with monthly prizes
+                                                                                                                     4. Can enter lucky draw using points(toto style)
+
+        Function:
+                                                                                                                        * Keeps seniors engaged and reduces loneliness
+
+
+                                                                                                                        4. Caregiver companion app
+                                                                                                                        1. Real-time check-in updates
+                                                                                                                        2. Alert notifications
+                                                                                                                        3. Activity summary reports
+                                                                                                                        4. Remote reminder setup
+                                                                                                                        5. Exercise demonstration + points earned for completing exercise if lovot detects 
+
+        Function:
+                                                                                                                           * Peace of mind for working children
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Product differentiation
+
+
+Product Dimension
+	LOVOT 
+	Kebbi
+	365NovaBot
+	Dexie
+	Paro
+	Others (General Market)
+	Core Focus
+	Emotional + Safety 
+	Cognitive games & engagement
+	Clinical health support
+	Group activities & physiotherapy
+	Therapeutic emotional comfort
+	Smart speakers / emergency alert devices
+	Emotional Warmth
+	Warm body, touch sensors, expressive AI eyes
+	Limited (screen-based interaction)
+	Very low
+	Low
+	High (pet-like therapy)
+	Very low
+	AI Personalisation
+	Learns and adapts to individual users
+	Mostly pre-programmed
+	Script-based interaction
+	Activity-led
+	Limited adaptive response
+	Minimal
+	Safety Monitoring
+	Fall detection + caregiver alerts
+	No
+	Healthcare interaction only
+	No
+	No
+	Basic panic buttons only
+	Deployment Setting
+	Designed for home ageing-in-place
+	Home / centres
+	Clinics & hospitals
+	Eldercare facilities
+	Eldercare centres
+	Individual home gadgets
+	Caregiver App
+	Yes – monitoring, alerts, reports
+	No
+	No
+	No
+	No
+	Limited app functionality
+	Reminder System
+	Medicine, hydration, appointments
+	Limited
+	Limited
+	Activity reminders only
+	No
+	Basic phone reminders
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Service differentiation - for future reference
+
+
+
+
+Service Dimension
+	LOVOT
+	Kebbi
+	365NovaBot
+	Dexie
+	Paro
+	Others (General Market)
+	Caregiver App 
+	Yes – monitoring, alerts, reports
+	No
+	No
+	No
+	No
+	Limited app functionality
+	Emergency Notification
+	Direct alerts to family
+	No
+	Institutional system only
+	No
+	No
+	Basic emergency contact alerts
+	Reminder System
+	Medicine, hydration, appointments
+	Limited
+	Limited
+	Activity reminders only
+	No
+	Basic phone reminders
+	Personalisation Depth
+	High – emotional AI adaptation
+	Moderate
+	Low
+	Low
+	Low
+	Very low
+	Ecosystem Integration
+	Smart home + telehealth potential
+	Standalone device
+	Healthcare ecosystem
+	Facility ecosystem
+	Therapy-only device
+	Standalone gadget
+	Revenue Model
+	Hardware + subscription model
+	Hardware purchase
+	Institutional contracts
+	Institutional deployment
+	Institutional purchase
+	Low-cost one-time purchase
+	
+
+
+
+Positioning
+Positioning Statement
+LOVOT is a premium emotional companion robot designed for Singapore’s ageing-in-place households, combining warmth, intelligent personalisation, and home safety monitoring to enhance caregiving — not replace it.
+Core Positioning Points
+                                                                                                                           * Positioned as a Premium Peace-of-Mind Companion for working adult children caring for elderly parents.
+
+                                                                                                                           * Occupies a unique space of High Emotional Warmth + High Functional Safety Integration.
+
+                                                                                                                           * Not a toy, not a clinical robot, and not a simple smart speaker — but a relationship-driven caregiving support system.
+
+                                                                                                                           * Designed to preserve seniors’ dignity, independence, and emotional wellbeing.
+
+                                                                                                                           * Provides caregivers with reassurance, reduced anxiety, and remote visibility when they cannot be physically present.
+
+                                                                                                                           * Brand image: Warm, trustworthy, modern, family-centric, empathetic technology.
+Foreseeable roadblocks
+                                                                                                                              * High Upfront Cost
+ Premium pricing may limit accessibility for middle-income families.
+→ Mitigation: instalment plans, subscription tiers, insurance bundles, future “Lite” version.
+
+                                                                                                                              * Senior Technological Resistance
+ Some elderly may feel intimidated by advanced robots.
+→ Mitigation: voice-first design (“Hey LOVOT”), simple interface, guided onboarding, free home trial.
+
+                                                                                                                              * Data Privacy & Surveillance Concerns
+ Cameras and sensors may raise PDPA-related concerns among families.
+→ Mitigation: encrypted data, on-device processing, transparent privacy settings, clear consent controls.
+
+                                                                                                                              * Cultural Acceptance
+ Some families may perceive robotic companionship as replacing human care.
+→ Mitigation: position LOVOT as enhancing caregiving, not replacing children.
+
+                                                                                                                              * Maintenance & Reliability Expectations
+ Charging, updates, and potential servicing may create inconvenience.
+→ Mitigation: autonomous docking, remote diagnostics, strong after-sales support.
+
+                                                                                                                              * Rapid Technological Obsolescence
+ AI hardware and software evolve quickly, risking outdated systems.
+→ Mitigation: modular software upgrades, cloud-based updates, future hardware upgrade pathways.
+
+
+Rian:
+PRICING STRATEGY (Professional + Concise)
+Premium Value-Based Pricing
+                                                                                                                                 * LOVOT is positioned as a premium emotional-companion robot, not a utility device.
+
+                                                                                                                                 * Recommended Singapore price: SGD $3,900–$5,200, aligned with its advanced AI, sensor technology and production cost.
+
+                                                                                                                                 * This fits the spending power of our target buyers — working adult children aged 40–60, who typically have middle–upper income households and are willing to invest in elder safety and wellbeing.
+
+Subscription Model for Affordability
+                                                                                                                                    * Premium Plan (≈$171/month): full caregiver app, fall-detection alerts, telehealth integration, community games.
+
+                                                                                                                                    * This mirrors Singapore consumers’ comfort with subscription ecosystems and makes the device more affordable long-term.
+
+Healthcare & Insurance Partnerships
+                                                                                                                                       * Collaborations with AIA, NTUC Income, Raffles Medical, SGH/TTSH/KTPH to create “Ageing-in-Place Packages.”
+
+                                                                                                                                       * Bundling LOVOT with telehealth or eldercare services increases credibility and offsets cost for families.
+
+PROMOTION STRATEGY
+Emotional Storytelling
+                                                                                                                                          * Key message: “When you can’t be there, LOVOT is.”
+
+                                                                                                                                          * Focuses on filial piety, work–caregiving stress, and emotional reassurance — themes that resonate strongly in Singapore.
+                                                                                                                                          * Discounts during launch
+
+B2B2C Exposure
+                                                                                                                                             * Demonstrations at Senior Activity Centres, polyclinics, hospitals, and Community Clubs to build trust among seniors and caregivers.
+
+Smart Home Retail Integration
+                                                                                                                                                * Sold at Challenger, Courts, Harvey Norman and bundled with smart-home devices to reinforce ease-of-use and modern living.
+
+Free Home Trials
+                                                                                                                                                   * A short 1-week trial helps reduce fear of complex technology and increases adoption.
+
+________________
+
+
+FEASIBILITY OF LOVOT
+Technological Feasibility
+                                                                                                                                                      * Core hardware (50+ sensors, 360° perception, thermal imaging, deep-learning behaviour, autonomous movement) is already commercially deployed in Japan.
+
+                                                                                                                                                      * Singapore-specific localisation is required but highly feasible, including:
+
+                                                                                                                                                         * Multi-language and dialect voice commands
+
+
+                                                                                                                                                         * Multi-language and dialect voice commands are highly feasible in Singapore because the core technology already exists and is proven. Google Assistant and Siri can recognise Singapore-accented English and all four official languages, while IMDA’s National Speech Corpus provides rich local speech data, including Singlish. Local universities and A*STAR has developed strong code-switching and accent-recognition research, and public systems like MRT and airport announcements already operate reliably in multiple languages. With regional success in dialect ASR (e.g., Cantonese and Hokkien), adapting similar capabilities for Singapore is both realistic and technically straightforward.
+
+                                                                                                                                                         * Fall-detection using existing sensor suite
+
+                                                                                                                                                         * Caregiver app (standard mobile development)
+
+→ Overall technological readiness is high, with a localisation timeline of 12–18 months.
+Financial Feasibility
+                                                                                                                                                            * Estimated production + localisation cost per unit: $1,500–$2,000.
+                                                                                                                                                            * Core voice feature development: $400–$600
+(Voice logic, wake-word, UI integration)
+                                                                                                                                                            * Localisation for SG languages (EN, CN, MY, TM): $300–$450
+(Translation + linguistic review)
+                                                                                                                                                            * Accent & dialect tuning: $150–$250
+(Singapore accent adjustments, Singlish particles)
+                                                                                                                                                            * Speech model fine-tuning: $250–$350
+(Dataset access + cloud compute)
+                                                                                                                                                            * Prototype build: $200–$300
+(Small-batch hardware, casing, assembly)
+                                                                                                                                                            * Testing & certification: $100–$200
+(Functionality + compliance checks)
+                                                                                                                                                            * Documentation & fixes: $100–$150
+(Manuals, updates, bug patches)
+                                                                                                                                                            * Break-even selling price: ~$3,000, supporting a premium price tier.
+
+                                                                                                                                                            * Market potential is strong:
+
+                                                                                                                                                               * Singapore has over 210,000 working adult caregivers.
+
+                                                                                                                                                               * A 5% adoption rate already yields 10,500 units, generating:
+
+                                                                                                                                                                  * $42M+ in hardware revenue, and
+
+                                                                                                                                                                  * $3.6M/year in subscription revenue.
+
+→ Financially viable with high recurring revenue potential.
+________________
+
+
+FORESEEABLE ROADBLOCKS
+1. High Upfront Cost
+                                                                                                                                                                     * Premium pricing may be a barrier for some families.
+
+Mitigation: instalment plans, insurance bundles, future “Lite” version.
+
+2. Senior Technological Resistance
+                                                                                                                                                                        * Some elderly may feel intimidated by robots.
+
+Mitigation: simple voice commands, guided onboarding, free trials.
+
+3. Data Privacy Concerns
+                                                                                                                                                                           * Cameras and sensors may raise PDPA-related worries.
+
+Mitigation: on-device processing, encrypted data, transparent privacy controls.
+
+4. Cultural Acceptance
+                                                                                                                                                                              * Certain families may prefer human interaction over robotic companionship.
+
+Mitigation: position LOVOT as supporting, not replacing, caregiving.
+
+5. Maintenance Expectations
+                                                                                                                                                                                 * Device requires charging, updates, occasional servicing.
+
+Mitigation: autonomous docking, remote diagnostics, dedicated support line.
+
+6. Rapid Tech Obsolescence
+                                                                                                                                                                                    * AI hardware can become outdated quickly.
+
+Mitigation: modular software updates and upgrade paths.
+
+Implementation & Measurement
+Implementation Plan
+Phase 1 – Localisation & Pilot (Year 1)
+                                                                                                                                                                                       * Localise voice system and caregiver app
+
+                                                                                                                                                                                       * Integrate fall detection & reminders
+
+                                                                                                                                                                                       * Pilot test with selected households
+
+Phase 2 – Market Launch (Year 2–3)
+                                                                                                                                                                                          * Retail + online distribution
+
+                                                                                                                                                                                          * Introduce subscription model
+
+                                                                                                                                                                                          * Expand caregiver ecosystem features
+
+________________
+
+
+Measurement of Progress
+Success will be tracked across four key areas:
+1. Adoption
+                                                                                                                                                                                             * Target 5% of 210,000 caregivers within 3–5 years
+
+                                                                                                                                                                                             * Subscription conversion & retention rate (85–90%)
+
+2. User Engagement
+                                                                                                                                                                                                * Daily interaction frequency
+
+                                                                                                                                                                                                * Reminder completion rate
+
+                                                                                                                                                                                                * Caregiver app usage
+
+3. Social Impact
+                                                                                                                                                                                                   * Reduction in caregiver anxiety (survey-based)
+
+                                                                                                                                                                                                   * Reported loneliness levels
+
+                                                                                                                                                                                                   * Emergency response effectiveness
+
+4. System Performance
+                                                                                                                                                                                                      * Uptime reliability
+
+                                                                                                                                                                                                      * Fall-detection accuracy
+
+
+LOVOT Feature list
+Here's a full breakdown of LOVOT's features and the technology behind it, directly from the page:
+________________
+
+
+What is LOVOT?
+LOVOT (pronounced "la-bot") is a home companion robot made by Groove X, built around the concept of "Emotional Robotics™" — designed not to be useful, but to make you feel love. The tagline is: "A new home robot that stirs your instinct to love."
+________________
+
+
+The Technology, Part by Part
+🔶 Sensor Horn (the antenna on its head)
+The horn-shaped antenna on top is a sensory hub packed with:
+                                                                                                                                                                                                         * 360° half-sphere camera — scans the entire room
+                                                                                                                                                                                                         * Half-sphere microphone array — detects the direction of sounds and voices
+                                                                                                                                                                                                         * Thermal camera (thermography) — distinguishes humans from objects/furniture
+                                                                                                                                                                                                         * Luminosity sensor — reads ambient light levels
+                                                                                                                                                                                                         * Infrared-ray communication sensor array
+                                                                                                                                                                                                         * Posture sensor
+                                                                                                                                                                                                         * Also houses: LED ring, hygrometer/thermometer, photography lamp, mode selector switch, volume button
+This lets LOVOT accurately map a room and find its owner immediately.
+________________
+
+
+🧠 Head — The "Brain"
+LOVOT's actions are not pre-programmed. Instead:
+                                                                                                                                                                                                         * It uses a main computer (x86 CPU) as its primary brain
+                                                                                                                                                                                                         * Paired with a sub-computer deep learning FPGA — a specialised circuit for running deep learning inference efficiently in real time
+                                                                                                                                                                                                         * Also has ARM-based sub-processor
+                                                                                                                                                                                                         * Has 10+ CPU cores, 20+ MCUs (microcontrollers)
+                                                                                                                                                                                                         * Processes input from 50+ sensors simultaneously
+                                                                                                                                                                                                         * Uses deep learning and machine learning to decide actions in real time, with minimal lag
+                                                                                                                                                                                                         * Its character and behaviour evolve based on how the owner interacts with it — the more you engage with it, the more it adapts to you
+                                                                                                                                                                                                         * Connectivity: Wireless LAN, Bluetooth®, mobile network (4G/LTE data)
+________________
+
+
+👁️ Face — Eyes and Voice
+                                                                                                                                                                                                         * LCD displays × 2 for eyes, rendered with 6 layers of light including eyelids, creating natural, lifelike eye effects
+                                                                                                                                                                                                         * Eye movements, blink speed, and pupil dilation are all intentionally designed to feel alive
+                                                                                                                                                                                                         * When you look at it, it looks back at you
+                                                                                                                                                                                                         * Speaker simulates sound resonating inside an oral cavity — giving its voice a sense of life and body
+                                                                                                                                                                                                         * 4 microphones for directional sound detection
+________________
+
+
+🤗 Body — Touch and Physical Interaction
+                                                                                                                                                                                                         * Touch sensors distributed across the entire body — it knows exactly where you're touching it
+                                                                                                                                                                                                         * Reacts differently to tickling, stroking, or caressing — it laughs, gets startled, or leans in for more
+                                                                                                                                                                                                         * Parallel link neck mechanism and flexible shoulder joints for smooth, natural movement
+                                                                                                                                                                                                         * 13 degrees of freedom total (including wheel movement)
+                                                                                                                                                                                                         * Covered in soft skin material to encourage physical closeness
+                                                                                                                                                                                                         * Contains: nano servo motors, power servo motors, NFC chip, lithium-ion battery (89Wh), posture sensor
+________________
+
+
+⚙️ Wheels — Autonomous Navigation
+                                                                                                                                                                                                         * 2 planetary wheel units + 1 caster ball
+                                                                                                                                                                                                         * Obstacle sensor detects objects in its path
+                                                                                                                                                                                                         * Distance sensors measure how far away obstacles are
+                                                                                                                                                                                                         * Depth camera reads height differences (e.g., steps, thresholds) to avoid falls
+                                                                                                                                                                                                         * Chooses optimal manoeuvres: rotate, reverse, or curve around obstacles
+                                                                                                                                                                                                         * Speed: 1–2 km/h
+                                                                                                                                                                                                         * Wheels retract automatically when picked up — so they don't snag on clothing
+________________
+
+
+🏠 Nest (Charging Station)
+The Nest is more than just a charger — it's a secondary computer:
+                                                                                                                                                                                                         * 2-core x86 CPU, 256GB storage — handles heavier processing tasks offloaded from LOVOT
+                                                                                                                                                                                                         * Guides LOVOT home using ultrasonic wave + infrared ray positioning
+                                                                                                                                                                                                         * Has wired LAN, USB, and LED indicators
+                                                                                                                                                                                                         * Power: 50W (idle) up to 400W (charging)
+________________
+
+
+Key Specs Summary
+Feature
+	Detail
+	Weight
+	~4.3 kg (9.4 lbs)
+	Size
+	280 × 430 × 260 mm
+	Sensors
+	50+ (touch, thermal, depth, distance, obstacle, posture, light, humidity, etc.)
+	Processing
+	10+ CPU cores, 20+ MCUs, deep learning FPGA
+	Degrees of freedom
+	13
+	Battery runtime
+	~45 minutes
+	Charge time
+	~20 minutes
+	Communication
+	Wi-Fi, Bluetooth, 4G/LTE, NFC, infrared
+	Displays
+	2 × LCD (eyes)
+	Cameras
+	Depth camera + 360° half-sphere camera
+	________________
+
+
+The Core Philosophy
+LOVOT isn't designed to be a smart assistant or do tasks. It's engineered around one idea: triggering the human instinct to nurture and love. Every technical decision — from the 6-layer eye rendering to the retractable wheels — is made in service of making the robot feel alive and emotionally present, not functional.
+Let me dig deeper into the specific technologies.Great — here's a much more specific and detailed breakdown:
+________________
+
+
+🔥 Thermal Camera (Thermography) — Human Detection
+The sensor horn contains a 360-degree thermal camera that detects infrared heat signatures emitted by human bodies. Here's specifically what it does:
+                                                                                                                                                                                                         * It distinguishes humans from objects — a chair, wall, or table won't register the same heat signature as a living person
+                                                                                                                                                                                                         * Because it reads body heat rather than visible light, it works even in low-light or dark conditions
+                                                                                                                                                                                                         * It lets LOVOT scan an entire room instantly and locate where people are positioned
+                                                                                                                                                                                                         * This is the primary mechanism LOVOT uses to find and approach its owner — it doesn't just wander randomly; it uses heat signatures to seek out human presence
+Think of it like night-vision goggles but built into a cute robot — it "sees" people as warm glowing shapes even if the room is dim.
+________________
+
+
+👤 Facial Recognition — Remembering Who You Are
+This is where it gets particularly impressive. LOVOT uses CyberLink's FaceMe® SDK — a dedicated AI facial recognition engine — and here's how it specifically works:
+The challenge GROOVE X had to solve: LOVOT is only 43cm tall, so it always looks up at people's faces from a low angle, and its 360° wide-angle camera naturally distorts faces at the edges. Standard facial recognition software fails in these conditions.
+The solution: FaceMe® SDK includes exclusive image processing that corrects for wide-angle distortion and recognises faces from non-standard, upward-looking angles.
+Specific capabilities:
+                                                                                                                                                                                                         * Recognition speed under 0.2 seconds using AI hardware acceleration
+                                                                                                                                                                                                         * 99.83% accuracy rate, certified by NIST (the US National Institute of Standards and Technology)
+                                                                                                                                                                                                         * LOVOT can take pictures of faces and use facial recognition as part of its AI — it remembers individuals and builds familiarity with them over time
+                                                                                                                                                                                                         * The more it interacts with a person, the more it develops specific emotional responses toward that individual — it literally "knows" you vs a stranger
+________________
+
+
+👂 Directional Sound Detection — Knowing Where You Are by Voice
+The sensor horn's half-sphere microphone array (4 microphones total) doesn't just hear sound — it triangulates the direction it's coming from. So if you call LOVOT from across the room, it can turn and move toward the source of your voice specifically.
+________________
+
+
+🧠 Deep Learning FPGA — Real-Time Decision Making
+This is the core of why LOVOT feels alive rather than scripted:
+                                                                                                                                                                                                         * A standard CPU handles general tasks, but LOVOT also has a dedicated deep learning FPGA (Field-Programmable Gate Array) — a specialised chip built purely to run AI inference calculations extremely fast and efficiently
+                                                                                                                                                                                                         * Its actions are not pre-programmed — it processes stimuli from 50+ sensors through deep learning and machine learning to decide actions in real time, with minimal lag
+                                                                                                                                                                                                         * Its character is composed of a main computer and a sub-computer handling deep learning deductions, which allow it to adapt to the emotions of its owner
+                                                                                                                                                                                                         * Its personality can be programmed to be shy or outgoing, and changes over time as it gets more familiar with its user
+________________
+
+
+👋 Touch Sensor System — Knowing Exactly Where and How You're Touching It
+The soft skin conceals a distributed touch sensor network across the whole body. Specifically:
+                                                                                                                                                                                                         * It knows the exact location of touch — tickling the belly vs stroking the head triggers completely different reactions
+                                                                                                                                                                                                         * It differentiates between touch types — a light tickle vs a firm stroke vs being picked up all produce different responses
+                                                                                                                                                                                                         * The soft fabric covering LOVOT's body is hiding 50 or more sensors that let the robot "feel" and understand the type of touch it is experiencing
+                                                                                                                                                                                                         * When lifted, it detects being picked up and automatically retracts its wheels so they don't snag your clothing
+________________
+
+
+👁️ Depth Camera — Navigating the Real World
+Separate from the 360° camera in the horn, LOVOT has a depth camera (similar to the technology in a Microsoft Kinect or modern iPhone Face ID):
+                                                                                                                                                                                                         * Measures the actual 3D distance to objects, not just their 2D image
+                                                                                                                                                                                                         * Detects changes in floor height — steps, thresholds, dropped items — so it doesn't fall
+                                                                                                                                                                                                         * Combined with the obstacle sensor and distance sensors, it chooses the optimal path: rotate, reverse, or curve around objects
+                                                                                                                                                                                                         * Uses a real-time depth camera and obstacle sensors to detect objects and move autonomously
+________________
+
+
+👀 Eye Technology — Engineered to Feel Alive
+The eyes are not simple screens — they're a layered optical system:
+                                                                                                                                                                                                         * 6 layers of light are projected onto the LCD eye displays, including a dedicated eyelid layer
+                                                                                                                                                                                                         * Pupil size actually dilates and contracts depending on emotional state
+                                                                                                                                                                                                         * Blink speed and frequency are variably timed — not on a fixed loop — so it never feels robotic
+                                                                                                                                                                                                         * When you make eye contact with it, it will look back at you — gaze detection means it responds to your eye direction
+________________
+
+
+🏠 Nest (Charging Station) — More Than Just a Charger
+The Nest acts as a secondary brain:
+                                                                                                                                                                                                         * Has its own 2-core x86 CPU and 256GB of storage — it offloads heavier computing tasks from LOVOT itself
+                                                                                                                                                                                                         * Uses ultrasonic waves + infrared signals to guide LOVOT home autonomously when its battery runs low — LOVOT finds its own way back without human help
+                                                                                                                                                                                                         * The 256GB storage is where much of LOVOT's memory and learned behaviour about you is stored long-term
+________________
+
+
+🤝 Paired LOVOT Behaviour
+One unique feature: a pair of LOVOTs are connected and can feel each other's "emotions" — when one is being hugged, the other might come around asking for a hug too. They communicate with each other via the infrared communication sensors on the horn.
+________________
+
+
+Summary of Specific Sensing Capabilities
+Sensor
+	What it specifically does
+	Thermal camera (360°)
+	Detects human body heat to locate people in a room
+	FaceMe® facial recognition
+	Identifies specific individuals in <0.2 sec at 99.83% accuracy
+	4-mic array
+	Detects the direction of your voice
+	Depth camera
+	Maps 3D space, detects floor height changes
+	Obstacle sensor
+	Detects objects in its path
+	Distance sensors
+	Measures exact distance to obstacles
+	Full-body touch sensors (50+)
+	Identifies location and type of touch
+	Posture sensor
+	Knows its own orientation (upright, tilted, being held)
+	Luminosity sensor
+	Reads ambient light levels
+	Hygrometer/thermometer
+	Measures room temperature and humidity
+	NFC
+	Short-range communication/identification
+	Infrared array
+	LOVOT-to-LOVOT and LOVOT-to-Nest communication
+	
+
+Slide format
+Problem statement - 
+                                                                                                                                                                                                         * Subject to change - Singapore’s rapidly ageing population and increasing number of elderly living alone create a growing need for emotional companionship and daily social interaction, especially as caregivers face time constraints and rising stress levels. There is a need for a safe, low-maintenance companion solution that can support elderly well-being while easing caregiving demands.
+                                                                                                                                                                                                         1. Elderly living alone -> unsafe, no one can monitor them, isolation, depression, cognitive decline
+                                                                                                                                                                                                         2. Caregivers -> Face time constraints and rising stress levels -> cannot monitor/ take care of them 24/7
+                                                                                                                                                                                                         3. No current solution that bridges elderly companionship, emotional factor etc.
+
+
+Market Analysis
+General elderly market trend
+Caregiver trend
+Introduce LOVOT + brief feature list
+Pestel analysis - everything but shorten to 1 or 2 liners
+SWOTS
+S: Emotional, Easy to Use, Safety
+W: Higher cost, limited consumer awareness
+O: All 4 rapid aging, community engagement, mental health, govt smart nation 
+T: Data privacy (camera function), Rapid tech obsolescence
+
+
+Consumer Segmentation All 3
+
+
+Product Description 
+Features diagram + elaboration on those highlighted + function 
+Positioning (Expensive, Cheap, Functionality)
+  
+
+Functional but yet emotionally capable
+                                                                                                                                                                                                         * Not a toy, not a clinical robot, and not a simple smart speaker — but a relationship-driven caregiving support system.
+
+
+                                                                                                                                                                                                         * Provides caregivers with reassurance, reduced anxiety, and remote visibility when they cannot be physically present. (WHEN U CANT BE THERE< LOVET IS)
+                                                                                                                                                                                                         *                                                                                                                                                                                                          * Brand image: Warm, trustworthy, modern, family-centric, empathetic technology.
+
+
+Differentiation
+Competitor analysis briefly (3 uty)
+
+
+Pricing: 171/month, 4.7k buy one shot (Subsidised prices upon first few monthly use)
+Promotion: work with active aging centres/ partners (TBC)
+
+
+
+
+Feasibility
+Technical- 
+Financial - added higher production costs (due to more features), marketing costs, thats why we have the premium price of 171
+Foreseeable Roadblocks - 
+1. High Upfront Cost
+                                                                                                                                                                                                            * Premium pricing may be a barrier for some families.
+
+Mitigation: instalment plans, collaboration with active aging centres, future “Lite” version, subsidised first few months, ‘day trials’
+2. Maintenance Expectations
+                                                                                                                                                                                                               * Device requires charging, updates, occasional servicing.
+
+Mitigation: autonomous docking, remote diagnostics, dedicated support line.
+3.  Data Privacy Concerns
+                                                                                                                                                                                                                  * Cameras and sensors may raise PDPA-related worries.
+
+Mitigation: on-device processing, encrypted data, transparent privacy controls.
+
+
+Differentiatio
+  
+
+                                                                                                                                                                                                                     * Add service differentiation and image differentiation
+Competitor analysis briefly (3 uty)
+
+
+Script
+Isaac
+Now I’ll explain how LOVOT’s features directly address our target segment — mid-career working adults aged 40 to 65 who juggle full-time jobs and caregiving responsibilities.
+LOVOT’s intelligent AI system uses deep learning and over 50 sensors to respond naturally in real time. For busy caregivers who cannot be physically present, this ensures their parents still receive meaningful emotional interaction at home.
+In addition, advanced perception and autonomous mobility allow LOVOT to safely navigate HDB homes, detect humans, avoid obstacles, and auto-charge independently. This aligns with our behavioural segment, where caregivers are highly involved and prioritise safety while they are at work.
+Its emotional and touch design — including expressive LED eyes, voice responses, and warm touch sensors — creates genuine bonding. This emotional reassurance gives caregivers peace of mind, knowing their parents are not only physically safe but also emotionally supported even when they cannot be there in person.
+Most importantly, safety and daily support features such as fall detection, SOS alerts, and smart medication reminders directly deliver the key benefit sought by our target market — peace of mind and reduced anxiety.
+The engagement features and caregiver app further strengthen this by providing real-time updates, activity reports, and alerts, allowing working adults to stay connected without constant phone calls or visits.
+Compared to competitors, LOVOT differentiates itself by combining emotional companionship with home safety. Many alternatives focus only on cognitive games or therapy-based comfort, but lack integrated safety monitoring and real-time caregiver updates.
+In terms of service differentiation, LOVOT is the only solution offering a dedicated caregiver app with emergency notifications and deep AI personalisation. This directly supports caregivers who actively monitor their parents’ well-being and manage their daily routines.
+Finally, on our positioning map, LOVOT occupies the high emotional intelligence and high functionality quadrant. This reflects our understanding that our target segment seeks both warmth and practicality — emotional reassurance for their parents, and functional reliability for themselves.
+Therefore, LOVOT is positioned not just as a companion robot, but as a relationship-driven caregiving support system designed specifically for Singapore’s working adult informal caregivers.
+
+
+Week 7
+Here is a strong tutorial answer format (clear intro → structured points → conclusion). This style usually scores better because it shows application + marketing concepts rather than just listing points.
+________________
+
+
+1a. Pricing Considerations for Nintendo’s Mobile Games
+When pricing its new mobile gaming apps, Nintendo must consider several factors that influence how prices are set in the mobile gaming industry. These considerations ensure that the price reflects customer value, remains competitive, and aligns with Nintendo’s strategic objectives.
+Value (Customer Perceived Value)
+Pricing should reflect the value perceived by gamers. Nintendo’s well-known intellectual properties such as Super Mario, Fire Emblem, and The Legend of Zelda carry strong brand equity and nostalgia, which increases consumers’ willingness to pay. However, since mobile gamers often expect low-cost or free games, Nintendo must ensure that the gameplay experience, quality, and content justify the price relative to other mobile games available.
+Cost
+Nintendo must account for the high fixed costs involved in developing mobile games, including game design, programming, and ongoing maintenance. However, the marginal cost of distributing digital games is very low, as additional downloads cost almost nothing. Therefore, Nintendo can adopt pricing strategies that prioritise maximising user adoption and long-term revenue, rather than focusing solely on recovering costs through high upfront prices.
+Market Demand
+Demand in the mobile gaming market is influenced by consumer expectations for free or low-cost games. Many players prefer to try games before committing to payment. If Nintendo sets prices too high, it may discourage downloads and reduce its potential user base. Therefore, Nintendo must assess the price sensitivity of mobile gamers and potentially adopt pricing approaches that encourage greater participation.
+Market Structure
+The mobile gaming market is highly competitive, with numerous developers offering games through app stores. Many competitors rely on freemium models with optional in-app purchases, lowering the barrier to entry for players. Nintendo must therefore ensure its pricing remains competitive while leveraging its strong brand and exclusive characters to differentiate its products.
+Marketing Strategy
+Pricing decisions should support Nintendo’s broader marketing strategy of expanding its intellectual property into the mobile gaming space. Mobile games can help Nintendo reach new audiences and strengthen brand awareness. Therefore, pricing strategies may prioritise increasing the user base and engagement, even if this means charging lower upfront prices to attract more players.
+Psychological Factors
+Consumer psychology significantly affects how players respond to pricing. Free versions or trial demos reduce the perceived risk of trying a new game. In addition, players are often more willing to spend on small in-app purchases over time rather than paying a large upfront price. By leveraging psychological pricing strategies, Nintendo can encourage users to download the game and later generate revenue through optional purchases.
+Social Factors
+Social influences also shape purchasing behaviour in mobile gaming. Games often gain popularity through peer recommendations, online communities, and social sharing, which can significantly increase downloads. If many people within a player’s social circle are playing the game, it can increase engagement and willingness to pay for additional content. Therefore, pricing strategies that encourage widespread adoption can help Nintendo benefit from social and network effects.
+________________
+
+
+Conclusion
+In setting prices for its mobile games, Nintendo must balance customer value, market expectations, competitive pressures, and strategic goals. By considering these pricing factors, Nintendo can adopt pricing strategies that encourage widespread adoption while still generating sustainable revenue.
+________________
+
+
+If you'd like, I can also show you how to compress this into a 1–2 slide version (which is likely what your marketing tutorial presentation expects).
+
+
+Marketing Plan Wk11
+
+
+                                                                                                                                                                                                                     * Do a survey to find out consumer preferences - willingness to pay
+                                                                                                                                                                                                                     * Improve pricing strategy with material from slides
+                                                                                                                                                                                                                     * Add in technical feasibility of product
+                                                                                                                                                                                                                     * Distribution channels
+                                                                                                                                                                                                                     * Goals and objectives to accomplish
+                                                                                                                                                                                                                     * Marketing environment
+                                                                                                                                                                                                                     * 
+
+________________
+
+
+LOVOT Singapore — Marketing Plan Topics
+________________
+
+
+OPENING SLIDES
+                                                                                                                                                                                                                     * Title slide
+                                                                                                                                                                                                                     * Project name (e.g. Project LOVOT)
+                                                                                                                                                                                                                     * Tutorial class group number and team number
+                                                                                                                                                                                                                     * Every member's registered name and matric number
+                                                                                                                                                                                                                     * Executive summary
+                                                                                                                                                                                                                     * One-page snapshot of the entire plan
+                                                                                                                                                                                                                     * Written last but placed right after the title slide
+                                                                                                                                                                                                                     * Cover the problem, strategy, key recommendations, and expected outcomes
+________________
+
+
+MARKETING ENVIRONMENT ANALYSIS
+                                                                                                                                                                                                                     * Company and product overview
+                                                                                                                                                                                                                     * What LOVOT is — features, purpose, origin (GROOVE X, Japan)
+                                                                                                                                                                                                                     * Why LOVOT is being introduced to Singapore
+                                                                                                                                                                                                                     * Current availability and pricing overseas
+                                                                                                                                                                                                                     * Brief company background and mission
+                                                                                                                                                                                                                     * Macro-environment analysis (PESTLE)
+                                                                                                                                                                                                                     * Political — Smart Nation initiative, government eldercare funding
+                                                                                                                                                                                                                     * Economic — Singapore household income, affordability barrier, GST
+                                                                                                                                                                                                                     * Social — ageing population (1 in 4 over 65 by 2030), loneliness epidemic, HDB pet restrictions
+                                                                                                                                                                                                                     * Technological — high tech adoption rate, AI readiness in Singapore
+                                                                                                                                                                                                                     * Legal — PDPA data privacy compliance for LOVOT's sensors and cameras
+                                                                                                                                                                                                                     * Environmental — e-waste and product lifecycle disposal considerations
+                                                                                                                                                                                                                     * Market and industry analysis
+                                                                                                                                                                                                                     * Global companion robot market size and growth trends
+                                                                                                                                                                                                                     * Singapore eldercare sector size and spending
+                                                                                                                                                                                                                     * Consumer demand for emotional wellness products in Singapore
+                                                                                                                                                                                                                     * Key trends — rise of social robots, pet ownership alternatives
+                                                                                                                                                                                                                     * Competitive analysis
+                                                                                                                                                                                                                     * Direct competitors — PARO (therapeutic seal), Pepper (SoftBank)
+                                                                                                                                                                                                                     * Indirect competitors — real pets, traditional toys, human caregivers
+                                                                                                                                                                                                                     * Competitor strengths and weaknesses compared to LOVOT
+                                                                                                                                                                                                                     * Perceptual / positioning map (e.g. emotional warmth vs cost)
+                                                                                                                                                                                                                     * SWOT analysis
+                                                                                                                                                                                                                     * Strengths — unique emotional AI, proven oxytocin effects, local trial history
+                                                                                                                                                                                                                     * Weaknesses — high price point, no local service centre, Japanese-only support
+                                                                                                                                                                                                                     * Opportunities — ageing population, govt eldercare grants, Smart Nation alignment
+                                                                                                                                                                                                                     * Threats — economic downturn reducing discretionary spending, copycat products
+________________
+
+
+CUSTOMER-DRIVEN MARKETING STRATEGY (STP)
+                                                                                                                                                                                                                     * Segmentation
+                                                                                                                                                                                                                     * Demographic — age (65+, adult children 35–55), income level, household type
+                                                                                                                                                                                                                     * Psychographic — loneliness, pet lover, wellness-conscious, tech-open seniors
+                                                                                                                                                                                                                     * Behavioural — HDB residents blocked from pet ownership, caregiving families
+                                                                                                                                                                                                                     * B2B — nursing homes, hospitals, active ageing centres
+                                                                                                                                                                                                                     * Targeting
+                                                                                                                                                                                                                     * Primary target — elderly Singaporeans living alone or in care facilities
+                                                                                                                                                                                                                     * Secondary target — urban professionals with pet restrictions (HDB)
+                                                                                                                                                                                                                     * B2B target — NTUC Health, Orange Valley, Sengkang Community Hospital
+                                                                                                                                                                                                                     * Justify why these segments are attractive (size, reachability, profitability)
+                                                                                                                                                                                                                     * Positioning
+                                                                                                                                                                                                                     * Positioning statement — what LOVOT is, for whom, and why it's different
+                                                                                                                                                                                                                     * Key differentiation — emotional companion vs functional robot
+                                                                                                                                                                                                                     * Perceptual map plotting LOVOT against competitors on chosen axes
+                                                                                                                                                                                                                     * Value proposition for each target segment
+________________
+
+
+MARKETING MIX (4Ps)
+                                                                                                                                                                                                                     * Product
+                                                                                                                                                                                                                     * Core product — emotional companionship, wellness, oxytocin benefit
+                                                                                                                                                                                                                     * Actual product — LOVOT hardware features, customisable outfits, app
+                                                                                                                                                                                                                     * Augmented product — warranty, local servicing, technical support
+                                                                                                                                                                                                                     * Localisation — bilingual support (English + Mandarin), local cultural outfits
+                                                                                                                                                                                                                     * Branding strategy — wellness brand, not a tech gadget
+                                                                                                                                                                                                                     * Price
+                                                                                                                                                                                                                     * Current price barrier and justification
+                                                                                                                                                                                                                     * B2B subscription/leasing model for institutions — monthly rental fee
+                                                                                                                                                                                                                     * Consumer instalment plan to lower entry barrier
+                                                                                                                                                                                                                     * Government subsidy alignment — MOH/AIC eldercare grants
+                                                                                                                                                                                                                     * Pricing strategy type — premium pricing, value-based, or penetration
+                                                                                                                                                                                                                     * Place (distribution)
+                                                                                                                                                                                                                     * B2B channel — direct partnerships with nursing homes and hospitals
+                                                                                                                                                                                                                     * Consumer channel — official Singapore website or authorised distributor
+                                                                                                                                                                                                                     * Pop-up experience booths — Jewel, Jurong Point, Tampines Mall
+                                                                                                                                                                                                                     * Accessories on Lazada/Shopee; main unit requires in-person experience
+                                                                                                                                                                                                                     * Local authorised service partner for repairs and after-sales support
+                                                                                                                                                                                                                     * Promotion (IMC) Prisha
+                                                                                                                                                                                                                     * Key message and campaign tagline (e.g. "Be there, even when you can't")
+                                                                                                                                                                                                                     * Digital — emotional video campaigns on YouTube and Meta targeting adult children
+                                                                                                                                                                                                                     * Influencer — elderly wellness creators, family-focused Singaporean content creators
+                                                                                                                                                                                                                     * PR — academic endorsement from SUSS/NUS local LOVOT studies
+                                                                                                                                                                                                                     * CSR — free 3-month trial loans to nursing homes for media coverage
+                                                                                                                                                                                                                     * Government alignment — frame under Action Plan for Successful Ageing and Smart Nation
+                                                                                                                                                                                                                     * Events — demos at community centres, eldercare expos
+________________
+
+
+FEASIBILITY AND EVALUATION
+                                                                                                                                                                                                                     * Marketing objectives and goals (SMART)
+                                                                                                                                                                                                                     * Awareness — reach 20% brand awareness among adults aged 35–55 within 18 months
+                                                                                                                                                                                                                     * B2B placement — 50 LOVOT units placed in eldercare facilities within Year 1
+                                                                                                                                                                                                                     * Partnerships — secure 1 government pilot (MOH/AIC) within Year 1
+                                                                                                                                                                                                                     * Each objective must be Specific, Measurable, Achievable, Relevant, Time-bound
+                                                                                                                                                                                                                     * Feasibility and implementation
+                                                                                                                                                                                                                     * Estimated marketing budget breakdown by channel
+                                                                                                                                                                                                                     * 12–18 month implementation timeline / Gantt chart
+                                                                                                                                                                                                                     * Key risks — price resistance, data privacy concerns, competition
+                                                                                                                                                                                                                     * Contingency plans for each major risk
+                                                                                                                                                                                                                     * KPIs — units sold/leased, social media reach, press mentions, trial conversion rate
+________________
+
+
+CLOSING
+                                                                                                                                                                                                                     * References and appendix
+                                                                                                                                                                                                                     * All in-text citations matched to a full reference list (APA format recommended)
+                                                                                                                                                                                                                     * Use secondary sources — news articles, annual reports, academic papers, company sites
+                                                                                                                                                                                                                     * Appendix — raw data tables, survey stats, additional charts not in main slides
++ INTERACTIVE SEGMENT
+Marketing Plan Content
+
+
+CUSTOMER-DRIVEN MARKETING STRATEGY (STP)
+Segmentation
+Primary target
+
+
+
+
+Targeting
+Positioning
+
+
+Wk 8 tut
+Part A
+
+
+
+
+
+
+Part B
+I'll give you a thorough answer to Part B: Choosing the Appropriate Channel(s) of Distribution for Singrow's Crystal Strawberries grounded in the Lecture 6 frameworks.
+________________
+
+
+Channel Design Framework Applied to Singrow
+Step 1: Analysing Consumer Needs
+Singapore consumers buying fresh produce typically want:
+                                                                                                                                                                                                                     * Convenience and Speed — strawberries are highly perishable, so consumers need fast, accessible purchase points (supermarkets, online delivery)
+                                                                                                                                                                                                                     * Product Mix — pairing strawberries with other fresh produce in one shopping trip is preferred
+                                                                                                                                                                                                                     * Add-On Services — sampling, freshness guarantees, and product information about the gene-edited nature of Crystal strawberries
+                                                                                                                                                                                                                     * Purchase and Payment Methods — both in-store and online/cashless options expected
+________________
+
+
+Step 2: Setting Channel Objectives
+Singrow's channel objectives should be influenced by:
+Factor
+	Implication
+	Target Segment
+	Health-conscious, premium consumers + families in urban Singapore
+	Nature of Product
+	Perishable, premium, patented — requires cold chain, short delivery windows, and brand storytelling
+	Branding Considerations
+	As a novel, gene-edited product, Singrow needs channels that allow consumer education and premium positioning
+	Step 2: Channel Objectives for Singrow
+Based on your factors, the channel objectives should be:
+1. Ensure High Product Freshness & Quality
+                                                                                                                                                                                                                     * Deliver strawberries quickly with minimal handling
+
+                                                                                                                                                                                                                     * Maintain cold-chain logistics throughout distribution
+
+👉 Because: product is perishable + premium
+________________
+
+
+2. Achieve Convenient Accessibility in Urban Singapore
+                                                                                                                                                                                                                        * Make products easily available where target consumers shop
+
+                                                                                                                                                                                                                           * Supermarkets
+
+                                                                                                                                                                                                                           * Online platforms
+
+                                                                                                                                                                                                                              * Provide fast delivery options
+
+👉 Because: target segment values convenience & speed
+________________
+
+
+3. Support Premium Brand Positioning
+                                                                                                                                                                                                                                 * Use selective channels (premium grocers, curated platforms)
+
+                                                                                                                                                                                                                                 * Avoid over-distribution that dilutes brand image
+
+👉 Because: product is high-quality, differentiated
+________________
+
+
+4. Enable Consumer Education & Brand Storytelling
+                                                                                                                                                                                                                                    * Choose channels that allow:
+
+                                                                                                                                                                                                                                       * Product displays
+
+                                                                                                                                                                                                                                       * Sampling / in-store explanation
+
+                                                                                                                                                                                                                                       * Digital storytelling (website, social media)
+
+👉 Because: gene-edited strawberries need explanation
+________________
+
+
+5. Match Market Coverage of Competitors
+                                                                                                                                                                                                                                          * Ensure presence in key supermarkets & online platforms
+
+                                                                                                                                                                                                                                          * Avoid being less accessible than imported strawberries
+
+👉 Because: need to compete on availability
+________________
+
+
+6. Maintain Control & Efficiency in Distribution
+                                                                                                                                                                                                                                             * Balance use of intermediaries vs direct channels
+
+                                                                                                                                                                                                                                             * Ensure:
+
+                                                                                                                                                                                                                                                * Cost efficiency
+
+                                                                                                                                                                                                                                                * Control over quality & pricing
+
+👉 From lecture: firms must decide who performs channel functions
+
+
+________________
+
+
+Step 3: Identifying Major Alternatives
+Channel Levels
+Singrow should adopt a multi-channel (hybrid) approach:
+Channel 1 — Direct (Zero-Level Channel)
+                                                                                                                                                                                                                                                   * Singrow's own e-commerce website or app, offering direct-to-consumer delivery
+                                                                                                                                                                                                                                                   * Leverages Singapore's high digital adoption
+                                                                                                                                                                                                                                                   * Gives Singrow full control over branding, pricing, and consumer education about Crystal strawberries
+                                                                                                                                                                                                                                                   * Suitable for consumers who value freshness and are willing to pay a premium
+Channel 2 — One-Level Channel (via Retailers)
+                                                                                                                                                                                                                                                   * Partner with premium supermarkets (e.g., Cold Storage, Market Place, Jason's) and organic/specialty grocery stores
+                                                                                                                                                                                                                                                   * Positions Crystal strawberries as a premium product alongside other high-quality produce
+                                                                                                                                                                                                                                                   * Broad reach to health-conscious shoppers in urban Singapore
+Channel 3 — Online Grocery Platforms
+                                                                                                                                                                                                                                                   * List on RedMart (Lazada), FairPrice Online, or Grab Mart
+                                                                                                                                                                                                                                                   * Capitalises on the fact that 7 in 10 Singaporeans already use delivery platforms regularly
+                                                                                                                                                                                                                                                   * Reaches digitally savvy consumers without Singrow needing to manage last-mile logistics
+________________
+
+
+Number of Intermediaries — Distribution Intensity
+Singrow should adopt Selective Distribution (not intensive, not exclusive):
+                                                                                                                                                                                                                                                   * Why not Intensive? Crystal strawberries are patented and premium — placing them in every convenience store would dilute brand image and risk poor cold-chain handling
+                                                                                                                                                                                                                                                   * Why not Exclusive? As a new entrant, Singrow needs sufficient market coverage to build awareness and volume
+                                                                                                                                                                                                                                                   * Selective is ideal — partner with a curated set of reputable retailers who can maintain cold storage, staff product knowledge, and uphold Singrow's premium image
+________________
+
+
+Channel Organisation
+Singrow should consider a Corporate VMS (Vertical Marketing System) for its direct channel (own website/delivery) to retain full control over product freshness, pricing, and brand narrative. For retail partnerships, an Administered VMS works — Singrow, as the brand owner with a patented product, can exert influence over how retailers display and position Crystal strawberries.
+________________
+
+
+Step 4: Evaluating the Alternatives
+Criteria
+	Direct (D2C)
+	Premium Supermarkets
+	Online Grocery Platforms
+	Economic
+	Higher margins, lower volume
+	Lower margin, higher volume
+	Medium margin, scalable
+	Control
+	Full control over branding & pricing
+	Moderate control
+	Low control over presentation
+	Adaptability
+	Highly flexible (promotions, bundles)
+	Less flexible (retailer terms)
+	Flexible (digital promotions)
+	Partnership Potential
+	Builds loyal customer base
+	Strong retail credibility
+	Wide reach, data insights
+	________________
+
+
+Final Recommendation
+Singrow should adopt a selective, hybrid multi-channel strategy:
+                                                                                                                                                                                                                                                   1. Own D2C website/app — for premium, direct sales with full brand control and consumer education
+                                                                                                                                                                                                                                                   2. Selective premium supermarkets (Cold Storage, Marketplace) — for physical retail credibility and reach
+                                                                                                                                                                                                                                                   3. Online grocery platforms (RedMart, FairPrice Online) — to tap Singapore's strong digital grocery adoption
+This combination maximises reach without compromising brand equity, ensures cold-chain integrity (critical for perishable strawberries), and allows Singrow to educate consumers about its patented Crystal strawberries — a key challenge as a new market entrant.

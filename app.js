@@ -1,0 +1,836 @@
+/* ============================================
+   LOVOT Caregiver Companion — Application Logic
+   ============================================ */
+
+// ─── i18n: Dialect / Language Translations ────────────────────────
+const translations = {
+  en: {
+    name: "English",
+    dashboard: "Dashboard",
+    cctvLive: "CCTV Live View",
+    reminders: "Reminders",
+    facialRec: "Facial Recognition",
+    activityReport: "Activity Report",
+    dialect: "Language / Dialect",
+    pageTitle: "Caregiver Dashboard",
+    lovotOnline: "LOVOT Online",
+    simulateFall: "Simulate Fall",
+    toggleFaces: "Toggle Face Detection",
+    fullscreen: "Fullscreen",
+    addReminder: "Add Instruction",
+    reminderType: "Type",
+    reminderText: "Instruction",
+    reminderTime: "Time",
+    reminderFreq: "Frequency",
+    medicine: "Medicine",
+    selfCare: "Self Care",
+    exercise: "Exercise",
+    appointment: "Appointment",
+    hydration: "Hydration",
+    daily: "Daily",
+    weekly: "Weekly",
+    once: "Once",
+    recognizedFaces: "Recognized Faces",
+    addFace: "Add New Face",
+    faceName: "Name",
+    faceRelation: "Relation",
+    register: "Register",
+    interactions: "Interactions",
+    alertsToday: "Alerts Today",
+    activeHours: "Active Hours",
+    moodScore: "Mood Score",
+    generateReport: "Generate Report",
+    exportPdf: "Export PDF",
+    weeklyActivity: "Weekly Activity Overview",
+    fallDetected: "FALL DETECTED",
+    fallMessage: "Possible fall detected in living room. Caregiver notified.",
+    dismiss: "Dismiss",
+    caregiverNotified: "Caregiver has been notified via SMS & app push notification.",
+    noReminders: "No reminders yet. Add one above!",
+    reminderPlaceholder: "e.g. Take blood pressure medicine",
+    mon: "Mon", tue: "Tue", wed: "Wed", thu: "Thu", fri: "Fri", sat: "Sat", sun: "Sun",
+    recording: "REC",
+    livingRoom: "Living Room — Camera 1"
+  },
+  zh: {
+    name: "华语 (Mandarin)",
+    dashboard: "主页",
+    cctvLive: "实时监控",
+    reminders: "提醒事项",
+    facialRec: "人脸识别",
+    activityReport: "活动报告",
+    dialect: "语言 / 方言",
+    pageTitle: "看护者主页",
+    lovotOnline: "LOVOT 在线",
+    simulateFall: "模拟跌倒",
+    toggleFaces: "切换人脸检测",
+    fullscreen: "全屏",
+    addReminder: "添加指令",
+    reminderType: "类型",
+    reminderText: "指令内容",
+    reminderTime: "时间",
+    reminderFreq: "频率",
+    medicine: "药物",
+    selfCare: "个人护理",
+    exercise: "运动",
+    appointment: "预约",
+    hydration: "喝水",
+    daily: "每天",
+    weekly: "每周",
+    once: "一次",
+    recognizedFaces: "已识别人脸",
+    addFace: "添加新面孔",
+    faceName: "名字",
+    faceRelation: "关系",
+    register: "注册",
+    interactions: "互动次数",
+    alertsToday: "今日警报",
+    activeHours: "活跃时段",
+    moodScore: "情绪分数",
+    generateReport: "生成报告",
+    exportPdf: "导出 PDF",
+    weeklyActivity: "每周活动概览",
+    fallDetected: "检测到跌倒",
+    fallMessage: "客厅可能检测到跌倒。已通知护理人员。",
+    dismiss: "关闭",
+    caregiverNotified: "已通过短信和应用推送通知护理人员。",
+    noReminders: "暂无提醒，请在上方添加！",
+    reminderPlaceholder: "例如：服用降压药",
+    mon: "周一", tue: "周二", wed: "周三", thu: "周四", fri: "周五", sat: "周六", sun: "周日",
+    recording: "录制中",
+    livingRoom: "客厅 — 摄像头 1"
+  },
+  hokkien: {
+    name: "福建话 (Hokkien)",
+    dashboard: "总页面",
+    cctvLive: "现场画面",
+    reminders: "提醒",
+    facialRec: "面孔认识",
+    activityReport: "活动报告",
+    dialect: "语言 / 方言",
+    pageTitle: "看护人总页面",
+    lovotOnline: "LOVOT 连线中",
+    simulateFall: "模拟跌倒",
+    toggleFaces: "开/关面孔探测",
+    fullscreen: "全屏幕",
+    addReminder: "加指令",
+    reminderType: "类型",
+    reminderText: "指令",
+    reminderTime: "时间",
+    reminderFreq: "频率",
+    medicine: "药物",
+    selfCare: "个人卫生",
+    exercise: "运动",
+    appointment: "预约",
+    hydration: "饮水",
+    daily: "每日",
+    weekly: "每礼拜",
+    once: "一次",
+    recognizedFaces: "已认识的面孔",
+    addFace: "加新面孔",
+    faceName: "名字",
+    faceRelation: "关系",
+    register: "注册",
+    interactions: "互动",
+    alertsToday: "今日警报",
+    activeHours: "活跃时间",
+    moodScore: "情绪分数",
+    generateReport: "制作报告",
+    exportPdf: "导出 PDF",
+    weeklyActivity: "每礼拜活动",
+    fallDetected: "检测到跌倒",
+    fallMessage: "客厅可能有人跌倒。已通知照顾者。",
+    dismiss: "关闭",
+    caregiverNotified: "已用短信和App通知照顾者。",
+    noReminders: "还没有提醒。在上面加一个！",
+    reminderPlaceholder: "例如：吃血压药",
+    mon: "礼拜一", tue: "礼拜二", wed: "礼拜三", thu: "礼拜四", fri: "礼拜五", sat: "礼拜六", sun: "礼拜日",
+    recording: "录制中",
+    livingRoom: "客厅 — 摄像机 1"
+  },
+  teochew: {
+    name: "潮州话 (Teochew)",
+    dashboard: "总页",
+    cctvLive: "直播画面",
+    reminders: "提醒",
+    facialRec: "面容辨认",
+    activityReport: "活动报告",
+    dialect: "语言 / 方言",
+    pageTitle: "看护人总页",
+    lovotOnline: "LOVOT 在线",
+    simulateFall: "模拟跌倒",
+    toggleFaces: "开关面孔侦测",
+    fullscreen: "全屏",
+    addReminder: "加指示",
+    reminderType: "类型",
+    reminderText: "指示",
+    reminderTime: "时间",
+    reminderFreq: "频率",
+    medicine: "药",
+    selfCare: "个人护理",
+    exercise: "运动",
+    appointment: "约好",
+    hydration: "喝水",
+    daily: "每日",
+    weekly: "每个礼拜",
+    once: "一次",
+    recognizedFaces: "认得的面孔",
+    addFace: "加新面孔",
+    faceName: "名",
+    faceRelation: "关系",
+    register: "登记",
+    interactions: "沟通次数",
+    alertsToday: "今天的警报",
+    activeHours: "活跃时段",
+    moodScore: "情绪分",
+    generateReport: "做报告",
+    exportPdf: "导出 PDF",
+    weeklyActivity: "每礼拜活动总结",
+    fallDetected: "有人跌倒",
+    fallMessage: "客厅可能有人跌倒。已通知照顾者。",
+    dismiss: "关闭",
+    caregiverNotified: "已用短信和App通知照顾者。",
+    noReminders: "还没有提醒。",
+    reminderPlaceholder: "例如：食降血压药",
+    mon: "拜一", tue: "拜二", wed: "拜三", thu: "拜四", fri: "拜五", sat: "拜六", sun: "礼拜",
+    recording: "录制",
+    livingRoom: "客厅 — 摄像头 1"
+  },
+  cantonese: {
+    name: "广东话 (Cantonese)",
+    dashboard: "主页",
+    cctvLive: "实时闭路电视",
+    reminders: "提醒",
+    facialRec: "面容辨认",
+    activityReport: "活动报告",
+    dialect: "语言 / 方言",
+    pageTitle: "护理人员主页",
+    lovotOnline: "LOVOT 上线",
+    simulateFall: "模拟跌倒",
+    toggleFaces: "开关面部检测",
+    fullscreen: "全屏",
+    addReminder: "加指令",
+    reminderType: "类别",
+    reminderText: "指令",
+    reminderTime: "时间",
+    reminderFreq: "频率",
+    medicine: "药",
+    selfCare: "自理",
+    exercise: "运动",
+    appointment: "预约",
+    hydration: "饮水",
+    daily: "每日",
+    weekly: "每星期",
+    once: "一次",
+    recognizedFaces: "已识别面孔",
+    addFace: "加新面孔",
+    faceName: "名",
+    faceRelation: "关系",
+    register: "登记",
+    interactions: "互动次数",
+    alertsToday: "今日警报",
+    activeHours: "活跃时间",
+    moodScore: "情绪分数",
+    generateReport: "生成报告",
+    exportPdf: "导出 PDF",
+    weeklyActivity: "每周活动总览",
+    fallDetected: "发现跌倒",
+    fallMessage: "客厅可能有人跌倒。已通知护理人员。",
+    dismiss: "关闭",
+    caregiverNotified: "已透过短信及App通知护理人员。",
+    noReminders: "暂时无提醒。",
+    reminderPlaceholder: "例如：食血压药",
+    mon: "星期一", tue: "星期二", wed: "星期三", thu: "星期四", fri: "星期五", sat: "星期六", sun: "星期日",
+    recording: "录紧",
+    livingRoom: "客厅 — 镜头 1"
+  },
+  ms: {
+    name: "Bahasa Melayu",
+    dashboard: "Laman Utama",
+    cctvLive: "CCTV Langsung",
+    reminders: "Peringatan",
+    facialRec: "Pengecaman Wajah",
+    activityReport: "Laporan Aktiviti",
+    dialect: "Bahasa / Dialek",
+    pageTitle: "Papan Pemuka Penjaga",
+    lovotOnline: "LOVOT Dalam Talian",
+    simulateFall: "Simulasi Jatuh",
+    toggleFaces: "Togol Pengesanan Wajah",
+    fullscreen: "Skrin Penuh",
+    addReminder: "Tambah Arahan",
+    reminderType: "Jenis",
+    reminderText: "Arahan",
+    reminderTime: "Masa",
+    reminderFreq: "Kekerapan",
+    medicine: "Ubat",
+    selfCare: "Penjagaan Diri",
+    exercise: "Senaman",
+    appointment: "Temu Janji",
+    hydration: "Minum Air",
+    daily: "Harian",
+    weekly: "Mingguan",
+    once: "Sekali",
+    recognizedFaces: "Wajah Dikenali",
+    addFace: "Tambah Wajah Baru",
+    faceName: "Nama",
+    faceRelation: "Hubungan",
+    register: "Daftar",
+    interactions: "Interaksi",
+    alertsToday: "Amaran Hari Ini",
+    activeHours: "Waktu Aktif",
+    moodScore: "Skor Mood",
+    generateReport: "Jana Laporan",
+    exportPdf: "Eksport PDF",
+    weeklyActivity: "Gambaran Aktiviti Mingguan",
+    fallDetected: "JATUH DIKESAN",
+    fallMessage: "Kemungkinan jatuh dikesan di ruang tamu. Penjaga telah dimaklumkan.",
+    dismiss: "Tutup",
+    caregiverNotified: "Penjaga telah dimaklumkan melalui SMS & notifikasi aplikasi.",
+    noReminders: "Tiada peringatan lagi. Tambah satu di atas!",
+    reminderPlaceholder: "cth. Ambil ubat tekanan darah",
+    mon: "Isn", tue: "Sel", wed: "Rab", thu: "Kha", fri: "Jum", sat: "Sab", sun: "Ahd",
+    recording: "RAKAM",
+    livingRoom: "Ruang Tamu — Kamera 1"
+  },
+  ta: {
+    name: "தமிழ் (Tamil)",
+    dashboard: "முகப்பு",
+    cctvLive: "CCTV நேரடி",
+    reminders: "நினைவூட்டல்",
+    facialRec: "முக அங்கீகாரம்",
+    activityReport: "செயல்பாட்டு அறிக்கை",
+    dialect: "மொழி / வட்டாரம்",
+    pageTitle: "பராமரிப்பாளர் டாஷ்போர்டு",
+    lovotOnline: "LOVOT ஆன்லைன்",
+    simulateFall: "விழுதல் உருவகப்படுத்து",
+    toggleFaces: "முக கண்டறிதல் மாற்று",
+    fullscreen: "முழு திரை",
+    addReminder: "அறிவுறுத்தல் சேர்",
+    reminderType: "வகை",
+    reminderText: "அறிவுறுத்தல்",
+    reminderTime: "நேரம்",
+    reminderFreq: "அதிர்வெண்",
+    medicine: "மருந்து",
+    selfCare: "சுய பராமரிப்பு",
+    exercise: "உடற்பயிற்சி",
+    appointment: "சந்திப்பு",
+    hydration: "தண்ணீர்",
+    daily: "தினசரி",
+    weekly: "வாராந்திர",
+    once: "ஒருமுறை",
+    recognizedFaces: "அடையாளம் காணப்பட்ட முகங்கள்",
+    addFace: "புதிய முகம் சேர்",
+    faceName: "பெயர்",
+    faceRelation: "உறவு",
+    register: "பதிவு",
+    interactions: "தொடர்புகள்",
+    alertsToday: "இன்றைய எச்சரிக்கைகள்",
+    activeHours: "செயலில் நேரம்",
+    moodScore: "மனநிலை மதிப்பெண்",
+    generateReport: "அறிக்கை உருவாக்கு",
+    exportPdf: "PDF ஏற்றுமதி",
+    weeklyActivity: "வாராந்திர செயல்பாடு",
+    fallDetected: "விழுதல் கண்டறியப்பட்டது",
+    fallMessage: "அறையில் விழுதல் கண்டறியப்பட்டது. பராமரிப்பாளருக்கு தெரிவிக்கப்பட்டது.",
+    dismiss: "நிராகரி",
+    caregiverNotified: "SMS மற்றும் ஆப் மூலம் பராமரிப்பாளருக்கு தெரிவிக்கப்பட்டது.",
+    noReminders: "நினைவூட்டல்கள் இல்லை. மேலே ஒன்று சேர்க்கவும்!",
+    reminderPlaceholder: "எ.கா. இரத்த அழுத்த மருந்து எடு",
+    mon: "திங்", tue: "செவ்", wed: "புத", thu: "வியா", fri: "வெள்", sat: "சனி", sun: "ஞாயி",
+    recording: "பதிவு",
+    livingRoom: "அறை — கேமரா 1"
+  }
+};
+
+let currentLang = 'en';
+
+function t(key) {
+  return (translations[currentLang] && translations[currentLang][key]) || translations.en[key] || key;
+}
+
+// ─── State ────────────────────────────────────────────────────────
+let reminders = JSON.parse(localStorage.getItem('lovot_reminders') || '[]');
+let fallAlertActive = false;
+let faceDetectionOn = true;
+
+// Simulated recognized faces
+const recognizedFaces = [
+  { name: "Ah Ma (张美玲)", relation: "Resident", confidence: 97, emoji: "👵" },
+  { name: "David Tan", relation: "Son (Caregiver)", confidence: 92, emoji: "👨" },
+  { name: "Nurse Fatimah", relation: "Home Nurse", confidence: 88, emoji: "👩‍⚕️" }
+];
+
+// ─── DOM Ready ────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+  initCCTV();
+  initReminders();
+  initFaceRecognition();
+  initActivityReport();
+  initDialectSelector();
+  initNavigation();
+  initMobileToggle();
+  applyTranslations();
+});
+
+// ─── CCTV Canvas Simulation ──────────────────────────────────────
+function initCCTV() {
+  const canvas = document.getElementById('cctv-canvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+
+  function resize() {
+    const container = canvas.parentElement;
+    canvas.width = container.offsetWidth;
+    canvas.height = container.offsetHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  // Simulated room scene elements
+  let noiseOffset = 0;
+  let personX = canvas.width * 0.45;
+  let personY = canvas.height * 0.4;
+  let personDir = 1;
+  let frameCount = 0;
+
+  function drawFrame() {
+    frameCount++;
+    const w = canvas.width;
+    const h = canvas.height;
+
+    // Dark room background
+    ctx.fillStyle = '#1a1d2e';
+    ctx.fillRect(0, 0, w, h);
+
+    // Floor
+    ctx.fillStyle = '#151828';
+    ctx.fillRect(0, h * 0.65, w, h * 0.35);
+
+    // Floor line
+    ctx.strokeStyle = 'rgba(255,255,255,0.04)';
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(0, h * 0.65);
+    ctx.lineTo(w, h * 0.65);
+    ctx.stroke();
+
+    // Wall pattern (subtle)
+    ctx.strokeStyle = 'rgba(255,255,255,0.015)';
+    for (let i = 0; i < w; i += 60) {
+      ctx.beginPath();
+      ctx.moveTo(i, 0);
+      ctx.lineTo(i, h * 0.65);
+      ctx.stroke();
+    }
+
+    // Window (left side)
+    ctx.fillStyle = 'rgba(77, 171, 247, 0.06)';
+    ctx.fillRect(w * 0.05, h * 0.1, w * 0.15, h * 0.35);
+    ctx.strokeStyle = 'rgba(255,255,255,0.08)';
+    ctx.lineWidth = 2;
+    ctx.strokeRect(w * 0.05, h * 0.1, w * 0.15, h * 0.35);
+    // Window cross
+    ctx.beginPath();
+    ctx.moveTo(w * 0.125, h * 0.1);
+    ctx.lineTo(w * 0.125, h * 0.45);
+    ctx.moveTo(w * 0.05, h * 0.275);
+    ctx.lineTo(w * 0.2, h * 0.275);
+    ctx.stroke();
+
+    // Sofa (right side)
+    ctx.fillStyle = 'rgba(139, 92, 246, 0.12)';
+    roundRect(ctx, w * 0.65, h * 0.42, w * 0.28, h * 0.18, 8);
+    ctx.fill();
+    ctx.strokeStyle = 'rgba(139, 92, 246, 0.2)';
+    roundRect(ctx, w * 0.65, h * 0.42, w * 0.28, h * 0.18, 8);
+    ctx.stroke();
+    // Sofa back
+    ctx.fillStyle = 'rgba(139, 92, 246, 0.08)';
+    roundRect(ctx, w * 0.66, h * 0.35, w * 0.26, h * 0.1, 6);
+    ctx.fill();
+
+    // Table (center)
+    ctx.fillStyle = 'rgba(255, 165, 0, 0.08)';
+    roundRect(ctx, w * 0.35, h * 0.5, w * 0.2, h * 0.1, 4);
+    ctx.fill();
+    ctx.strokeStyle = 'rgba(255, 165, 0, 0.15)';
+    roundRect(ctx, w * 0.35, h * 0.5, w * 0.2, h * 0.1, 4);
+    ctx.stroke();
+
+    // Animated person (elderly figure)
+    personX += personDir * 0.3;
+    if (personX > w * 0.55 || personX < w * 0.3) personDir *= -1;
+    const sway = Math.sin(frameCount * 0.03) * 2;
+
+    // Body
+    ctx.fillStyle = 'rgba(255, 200, 150, 0.7)';
+    ctx.beginPath();
+    ctx.arc(personX + sway, personY - 20, 12, 0, Math.PI * 2); // Head
+    ctx.fill();
+
+    ctx.fillStyle = 'rgba(100, 149, 237, 0.5)';
+    ctx.fillRect(personX - 10 + sway, personY - 8, 20, 35); // Torso
+    ctx.fillStyle = 'rgba(80, 80, 100, 0.5)';
+    ctx.fillRect(personX - 8 + sway, personY + 27, 7, 25); // Left leg
+    ctx.fillRect(personX + 1 + sway, personY + 27, 7, 25); // Right leg
+
+    // LOVOT robot (small cute figure near person)
+    const lovotX = personX + 60 + Math.sin(frameCount * 0.02) * 5;
+    const lovotY = h * 0.52;
+    const lovotBob = Math.sin(frameCount * 0.05) * 2;
+
+    // LOVOT body
+    ctx.fillStyle = 'rgba(255, 107, 107, 0.6)';
+    ctx.beginPath();
+    ctx.ellipse(lovotX, lovotY + lovotBob, 14, 18, 0, 0, Math.PI * 2);
+    ctx.fill();
+
+    // LOVOT eyes
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+    ctx.beginPath();
+    ctx.arc(lovotX - 5, lovotY - 5 + lovotBob, 3, 0, Math.PI * 2);
+    ctx.arc(lovotX + 5, lovotY - 5 + lovotBob, 3, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.fillStyle = '#333';
+    ctx.beginPath();
+    ctx.arc(lovotX - 5, lovotY - 5 + lovotBob, 1.5, 0, Math.PI * 2);
+    ctx.arc(lovotX + 5, lovotY - 5 + lovotBob, 1.5, 0, Math.PI * 2);
+    ctx.fill();
+
+    // LOVOT horn/sensor
+    ctx.strokeStyle = 'rgba(255, 107, 107, 0.8)';
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(lovotX, lovotY - 16 + lovotBob);
+    ctx.lineTo(lovotX, lovotY - 26 + lovotBob);
+    ctx.stroke();
+    ctx.fillStyle = 'rgba(240, 165, 0, 0.8)';
+    ctx.beginPath();
+    ctx.arc(lovotX, lovotY - 27 + lovotBob, 3, 0, Math.PI * 2);
+    ctx.fill();
+
+    // Scanline effect
+    noiseOffset = (noiseOffset + 1) % h;
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.012)';
+    for (let y = 0; y < h; y += 3) {
+      if ((y + noiseOffset) % 6 < 3) {
+        ctx.fillRect(0, y, w, 1);
+      }
+    }
+
+    // Vignette
+    const vg = ctx.createRadialGradient(w / 2, h / 2, w * 0.25, w / 2, h / 2, w * 0.7);
+    vg.addColorStop(0, 'transparent');
+    vg.addColorStop(1, 'rgba(0,0,0,0.5)');
+    ctx.fillStyle = vg;
+    ctx.fillRect(0, 0, w, h);
+
+    // Camera info overlay
+    ctx.fillStyle = 'rgba(255,255,255,0.5)';
+    ctx.font = '11px "Courier New", monospace';
+    ctx.fillText(t('livingRoom'), 16, h - 14);
+
+    requestAnimationFrame(drawFrame);
+  }
+  drawFrame();
+
+  // Update timestamp
+  function updateTimestamp() {
+    const el = document.getElementById('cctv-timestamp');
+    if (el) {
+      const now = new Date();
+      el.textContent = now.toLocaleString('en-SG', {
+        day: '2-digit', month: '2-digit', year: 'numeric',
+        hour: '2-digit', minute: '2-digit', second: '2-digit',
+        hour12: false
+      });
+    }
+  }
+  setInterval(updateTimestamp, 1000);
+  updateTimestamp();
+
+  // Fall simulation button
+  document.getElementById('btn-simulate-fall')?.addEventListener('click', simulateFall);
+  document.getElementById('btn-dismiss-fall')?.addEventListener('click', dismissFall);
+  document.getElementById('btn-toggle-faces')?.addEventListener('click', toggleFaceDetection);
+
+  // Draw face detection boxes
+  updateFaceBoxes();
+}
+
+function roundRect(ctx, x, y, w, h, r) {
+  ctx.beginPath();
+  ctx.moveTo(x + r, y);
+  ctx.lineTo(x + w - r, y);
+  ctx.quadraticCurveTo(x + w, y, x + w, y + r);
+  ctx.lineTo(x + w, y + h - r);
+  ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
+  ctx.lineTo(x + r, y + h);
+  ctx.quadraticCurveTo(x, y + h, x, y + h - r);
+  ctx.lineTo(x, y + r);
+  ctx.quadraticCurveTo(x, y, x + r, y);
+  ctx.closePath();
+}
+
+function simulateFall() {
+  fallAlertActive = true;
+  document.getElementById('fall-alert')?.classList.add('active');
+  showToast('🚨', t('fallDetected') + ' — ' + t('caregiverNotified'), 'danger');
+}
+
+function dismissFall() {
+  fallAlertActive = false;
+  document.getElementById('fall-alert')?.classList.remove('active');
+  showToast('✅', 'Alert dismissed. Status: Normal.', 'success');
+}
+
+function toggleFaceDetection() {
+  faceDetectionOn = !faceDetectionOn;
+  updateFaceBoxes();
+}
+
+function updateFaceBoxes() {
+  const overlay = document.getElementById('cctv-overlay');
+  if (!overlay) return;
+
+  // Remove existing face boxes
+  overlay.querySelectorAll('.face-box').forEach(b => b.remove());
+
+  if (!faceDetectionOn) return;
+
+  // Simulated face bounding boxes
+  const boxes = [
+    { x: '35%', y: '20%', w: '50px', h: '55px', name: 'Ah Ma', conf: '97%' },
+  ];
+
+  boxes.forEach(b => {
+    const div = document.createElement('div');
+    div.className = 'face-box';
+    div.style.left = b.x;
+    div.style.top = b.y;
+    div.style.width = b.w;
+    div.style.height = b.h;
+    div.innerHTML = `<span class="face-label">${b.name} (${b.conf})</span>`;
+    overlay.appendChild(div);
+  });
+}
+
+// ─── Reminders ───────────────────────────────────────────────────
+function initReminders() {
+  renderReminders();
+
+  document.getElementById('reminder-form')?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const type = form.querySelector('#reminder-type').value;
+    const text = form.querySelector('#reminder-text').value.trim();
+    const time = form.querySelector('#reminder-time').value;
+    const freq = form.querySelector('#reminder-freq').value;
+
+    if (!text || !time) return;
+
+    reminders.push({ id: Date.now(), type, text, time, freq });
+    localStorage.setItem('lovot_reminders', JSON.stringify(reminders));
+    renderReminders();
+    showToast('✅', `Reminder added: "${text}"`, 'success');
+    form.reset();
+  });
+}
+
+function renderReminders() {
+  const list = document.getElementById('reminder-list');
+  if (!list) return;
+
+  if (reminders.length === 0) {
+    list.innerHTML = `<div class="empty-state"><span class="icon">📋</span>${t('noReminders')}</div>`;
+    return;
+  }
+
+  const typeIcons = {
+    medicine: '💊', selfcare: '🛁', exercise: '🏃', appointment: '🏥', hydration: '💧'
+  };
+
+  list.innerHTML = reminders.map(r => `
+    <div class="reminder-item" data-id="${r.id}">
+      <div class="reminder-icon ${r.type}">${typeIcons[r.type] || '📌'}</div>
+      <div class="reminder-info">
+        <div class="reminder-text">${r.text}</div>
+        <div class="reminder-time">${r.time} · ${t(r.freq) || r.freq}</div>
+      </div>
+      <button class="reminder-delete" onclick="deleteReminder(${r.id})" title="Delete">✕</button>
+    </div>
+  `).join('');
+}
+
+function deleteReminder(id) {
+  reminders = reminders.filter(r => r.id !== id);
+  localStorage.setItem('lovot_reminders', JSON.stringify(reminders));
+  renderReminders();
+}
+
+// ─── Facial Recognition ─────────────────────────────────────────
+function initFaceRecognition() {
+  renderFaceList();
+
+  document.getElementById('face-form')?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const name = e.target.querySelector('#face-name').value.trim();
+    const relation = e.target.querySelector('#face-relation').value.trim();
+    if (!name) return;
+    recognizedFaces.push({
+      name, relation: relation || 'Unknown', confidence: Math.floor(Math.random() * 15) + 80, emoji: '👤'
+    });
+    renderFaceList();
+    showToast('✅', `Face registered: "${name}"`, 'success');
+    e.target.reset();
+  });
+}
+
+function renderFaceList() {
+  const list = document.getElementById('face-list');
+  if (!list) return;
+
+  list.innerHTML = recognizedFaces.map(f => `
+    <div class="face-entry">
+      <div class="face-avatar recognized">${f.emoji}</div>
+      <div class="face-info">
+        <div class="name">${f.name}</div>
+        <div class="detail">${f.relation}</div>
+      </div>
+      <div class="confidence-bar">
+        <div class="confidence-fill" style="width: ${f.confidence}%"></div>
+      </div>
+      <span class="confidence-text">${f.confidence}%</span>
+    </div>
+  `).join('');
+}
+
+// ─── Activity Report ─────────────────────────────────────────────
+function initActivityReport() {
+  generateReport();
+  document.getElementById('btn-generate-report')?.addEventListener('click', generateReport);
+  document.getElementById('btn-export-pdf')?.addEventListener('click', exportReport);
+}
+
+function generateReport() {
+  // Randomized stats
+  const stats = {
+    interactions: Math.floor(Math.random() * 30) + 15,
+    alerts: Math.floor(Math.random() * 4),
+    activeHours: (Math.random() * 6 + 8).toFixed(1),
+    mood: Math.floor(Math.random() * 20) + 75,
+  };
+
+  document.getElementById('stat-interactions').textContent = stats.interactions;
+  document.getElementById('stat-alerts').textContent = stats.alerts;
+  document.getElementById('stat-active').textContent = stats.activeHours + 'h';
+  document.getElementById('stat-mood').textContent = stats.mood + '%';
+
+  // Chart bars
+  const chartContainer = document.getElementById('activity-chart');
+  if (!chartContainer) return;
+
+  const days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+  const colors = ['#ff6b6b', '#f0a500', '#38d9a9', '#4dabf7', '#b197fc', '#ff6b6b', '#f0a500'];
+
+  chartContainer.innerHTML = '';
+  days.forEach((day, i) => {
+    const height = Math.floor(Math.random() * 70) + 20;
+    const bar = document.createElement('div');
+    bar.className = 'chart-bar';
+    bar.style.height = '0%';
+    bar.style.background = `linear-gradient(180deg, ${colors[i]}, ${colors[i]}88)`;
+    bar.setAttribute('data-label', t(day));
+    bar.title = `${t(day)}: ${height}% activity`;
+    chartContainer.appendChild(bar);
+
+    // Animate in
+    setTimeout(() => { bar.style.height = height + '%'; }, i * 100);
+  });
+}
+
+function exportReport() {
+  showToast('📄', 'Activity report exported as PDF (simulated).', 'success');
+}
+
+// ─── Dialect Selector ────────────────────────────────────────────
+function initDialectSelector() {
+  const select = document.getElementById('dialect-select');
+  if (!select) return;
+
+  select.addEventListener('change', (e) => {
+    currentLang = e.target.value;
+    applyTranslations();
+    renderReminders();
+    generateReport(); // re-render chart labels
+    renderFaceList();
+  });
+}
+
+function applyTranslations() {
+  // Update all elements with data-i18n attribute
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+      el.placeholder = t(key);
+    } else if (el.tagName === 'OPTION') {
+      el.textContent = t(key);
+    } else {
+      el.textContent = t(key);
+    }
+  });
+
+  // Update page title
+  document.title = `LOVOT — ${t('pageTitle')}`;
+}
+
+// ─── Navigation ──────────────────────────────────────────────────
+function initNavigation() {
+  document.querySelectorAll('.nav-link[data-section]').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const section = link.getAttribute('data-section');
+
+      // Active state
+      document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+      link.classList.add('active');
+
+      // Scroll to section
+      const target = document.getElementById(section);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+
+      // Close mobile sidebar
+      document.querySelector('.sidebar')?.classList.remove('open');
+    });
+  });
+}
+
+// ─── Mobile Toggle ───────────────────────────────────────────────
+function initMobileToggle() {
+  document.getElementById('mobile-toggle')?.addEventListener('click', () => {
+    document.querySelector('.sidebar')?.classList.toggle('open');
+  });
+}
+
+// ─── Toast Notifications ─────────────────────────────────────────
+function showToast(icon, message, type = 'info') {
+  const container = document.getElementById('toast-container');
+  if (!container) return;
+
+  const toast = document.createElement('div');
+  toast.className = `toast ${type}`;
+  toast.innerHTML = `
+    <span class="toast-icon">${icon}</span>
+    <span>${message}</span>
+    <button class="toast-dismiss" onclick="this.parentElement.remove()">✕</button>
+  `;
+  container.appendChild(toast);
+
+  // Auto-remove after 5 seconds
+  setTimeout(() => {
+    toast.style.animation = 'toast-out 0.3s ease-in forwards';
+    setTimeout(() => toast.remove(), 300);
+  }, 5000);
+}
