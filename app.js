@@ -372,7 +372,14 @@ document.addEventListener('DOMContentLoaded', () => {
   applyTranslations();
 });
 
-// ─── CCTV Canvas Simulation ──────────────────────────────────────
+// ─── Shared tracking state for face detection ───────────────────
+// Updated each frame so the HTML overlay can track the person
+let _personHeadScreenX = 0;
+let _personHeadScreenY = 0;
+let _cctvCanvasW = 1;
+let _cctvCanvasH = 1;
+
+// ─── CCTV Canvas Simulation (LOVOT First-Person POV) ─────────────
 function initCCTV() {
   const canvas = document.getElementById('cctv-canvas');
   if (!canvas) return;
@@ -386,149 +393,278 @@ function initCCTV() {
   resize();
   window.addEventListener('resize', resize);
 
-  // Simulated room scene elements
-  let noiseOffset = 0;
-  let personX = canvas.width * 0.45;
-  let personY = canvas.height * 0.4;
+  // Person movement state — LOVOT's POV means person wanders across frame
+  let personNormX = 0.5;   // normalised X position (0–1 across frame)
   let personDir = 1;
   let frameCount = 0;
+  let noiseOffset = 0;
 
   function drawFrame() {
     frameCount++;
     const w = canvas.width;
     const h = canvas.height;
+    _cctvCanvasW = w;
+    _cctvCanvasH = h;
 
-    // Dark room background
+    // ── Background: room seen from low angle (floor-level, looking up) ──
+    // Ceiling
+    const ceilGrad = ctx.createLinearGradient(0, 0, 0, h * 0.25);
+    ceilGrad.addColorStop(0, '#12152a');
+    ceilGrad.addColorStop(1, '#181c33');
+    ctx.fillStyle = ceilGrad;
+    ctx.fillRect(0, 0, w, h * 0.25);
+
+    // Ceiling lamp
+    ctx.fillStyle = 'rgba(255, 220, 120, 0.06)';
+    ctx.beginPath();
+    ctx.ellipse(w * 0.5, h * 0.04, 50, 14, 0, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.fillStyle = 'rgba(255, 220, 120, 0.15)';
+    ctx.beginPath();
+    ctx.ellipse(w * 0.5, h * 0.04, 22, 6, 0, 0, Math.PI * 2);
+    ctx.fill();
+    // Light cone
+    const lightGrad = ctx.createRadialGradient(w * 0.5, h * 0.04, 10, w * 0.5, h * 0.4, w * 0.45);
+    lightGrad.addColorStop(0, 'rgba(255, 220, 120, 0.04)');
+    lightGrad.addColorStop(1, 'transparent');
+    ctx.fillStyle = lightGrad;
+    ctx.fillRect(0, 0, w, h * 0.7);
+
+    // Wall (upper ⅔)
     ctx.fillStyle = '#1a1d2e';
-    ctx.fillRect(0, 0, w, h);
+    ctx.fillRect(0, h * 0.12, w, h * 0.55);
 
-    // Floor
-    ctx.fillStyle = '#151828';
+    // Wall baseboard accent
+    ctx.fillStyle = 'rgba(255,255,255,0.02)';
+    ctx.fillRect(0, h * 0.62, w, 4);
+
+    // Floor — perspective lines receding upward (we're low, floor spreads out below)
+    const floorGrad = ctx.createLinearGradient(0, h * 0.65, 0, h);
+    floorGrad.addColorStop(0, '#1e2140');
+    floorGrad.addColorStop(1, '#15182a');
+    ctx.fillStyle = floorGrad;
     ctx.fillRect(0, h * 0.65, w, h * 0.35);
 
-    // Floor line
-    ctx.strokeStyle = 'rgba(255,255,255,0.04)';
+    // Floor tile lines (perspective — converge toward center-top)
+    ctx.strokeStyle = 'rgba(255,255,255,0.025)';
     ctx.lineWidth = 1;
-    ctx.beginPath();
-    ctx.moveTo(0, h * 0.65);
-    ctx.lineTo(w, h * 0.65);
-    ctx.stroke();
-
-    // Wall pattern (subtle)
-    ctx.strokeStyle = 'rgba(255,255,255,0.015)';
-    for (let i = 0; i < w; i += 60) {
+    const vanishX = w * 0.5;
+    const vanishY = h * 0.65;
+    for (let i = 0; i <= 10; i++) {
+      const baseX = (i / 10) * w;
       ctx.beginPath();
-      ctx.moveTo(i, 0);
-      ctx.lineTo(i, h * 0.65);
+      ctx.moveTo(baseX, h);
+      ctx.lineTo(vanishX + (baseX - vanishX) * 0.3, vanishY);
+      ctx.stroke();
+    }
+    // Horizontal floor lines
+    for (let row = 0; row < 5; row++) {
+      const fy = h * 0.65 + (h * 0.35) * (row / 5);
+      ctx.beginPath();
+      ctx.moveTo(0, fy);
+      ctx.lineTo(w, fy);
       ctx.stroke();
     }
 
-    // Window (left side)
-    ctx.fillStyle = 'rgba(77, 171, 247, 0.06)';
-    ctx.fillRect(w * 0.05, h * 0.1, w * 0.15, h * 0.35);
-    ctx.strokeStyle = 'rgba(255,255,255,0.08)';
+    // ── Furniture seen from low angle ──
+
+    // Sofa (far right, we look up at it)
+    ctx.fillStyle = 'rgba(139, 92, 246, 0.12)';
+    roundRect(ctx, w * 0.72, h * 0.30, w * 0.26, h * 0.32, 10);
+    ctx.fill();
+    ctx.strokeStyle = 'rgba(139, 92, 246, 0.18)';
+    roundRect(ctx, w * 0.72, h * 0.30, w * 0.26, h * 0.32, 10);
+    ctx.stroke();
+    // Sofa cushions
+    ctx.fillStyle = 'rgba(139, 92, 246, 0.07)';
+    roundRect(ctx, w * 0.75, h * 0.34, w * 0.08, h * 0.08, 6);
+    ctx.fill();
+    roundRect(ctx, w * 0.86, h * 0.34, w * 0.08, h * 0.08, 6);
+    ctx.fill();
+
+    // Side table (far left)
+    ctx.fillStyle = 'rgba(255, 165, 0, 0.08)';
+    roundRect(ctx, w * 0.03, h * 0.38, w * 0.14, h * 0.24, 4);
+    ctx.fill();
+    ctx.strokeStyle = 'rgba(255, 165, 0, 0.12)';
+    roundRect(ctx, w * 0.03, h * 0.38, w * 0.14, h * 0.24, 4);
+    ctx.stroke();
+    // Medicine bottle on table
+    ctx.fillStyle = 'rgba(255, 107, 107, 0.25)';
+    roundRect(ctx, w * 0.07, h * 0.40, 12, 18, 3);
+    ctx.fill();
+    // Glass of water
+    ctx.fillStyle = 'rgba(77, 171, 247, 0.2)';
+    roundRect(ctx, w * 0.11, h * 0.42, 8, 14, 2);
+    ctx.fill();
+
+    // Window (upper left — seen from below, so high up)
+    ctx.fillStyle = 'rgba(77, 171, 247, 0.05)';
+    ctx.fillRect(w * 0.02, h * 0.06, w * 0.2, h * 0.22);
+    ctx.strokeStyle = 'rgba(255,255,255,0.07)';
     ctx.lineWidth = 2;
-    ctx.strokeRect(w * 0.05, h * 0.1, w * 0.15, h * 0.35);
+    ctx.strokeRect(w * 0.02, h * 0.06, w * 0.2, h * 0.22);
     // Window cross
     ctx.beginPath();
-    ctx.moveTo(w * 0.125, h * 0.1);
-    ctx.lineTo(w * 0.125, h * 0.45);
-    ctx.moveTo(w * 0.05, h * 0.275);
-    ctx.lineTo(w * 0.2, h * 0.275);
+    ctx.moveTo(w * 0.12, h * 0.06);
+    ctx.lineTo(w * 0.12, h * 0.28);
+    ctx.moveTo(w * 0.02, h * 0.17);
+    ctx.lineTo(w * 0.22, h * 0.17);
     ctx.stroke();
+    // Daylight shimmer
+    ctx.fillStyle = `rgba(180, 220, 255, ${0.02 + Math.sin(frameCount * 0.01) * 0.01})`;
+    ctx.fillRect(w * 0.03, h * 0.07, w * 0.18, h * 0.20);
 
-    // Sofa (right side)
-    ctx.fillStyle = 'rgba(139, 92, 246, 0.12)';
-    roundRect(ctx, w * 0.65, h * 0.42, w * 0.28, h * 0.18, 8);
+    // ── Elderly person — large, seen from below (LOVOT's ~30cm height) ──
+    personNormX += personDir * 0.0008;
+    if (personNormX > 0.72 || personNormX < 0.28) personDir *= -1;
+
+    const pCenterX = personNormX * w;
+    const sway = Math.sin(frameCount * 0.025) * 3;
+    const breathe = Math.sin(frameCount * 0.04) * 1.5;
+
+    // Person scale — large because we're at floor level looking up
+    const bodyScale = 1.0;
+    const headRadius = 28 * bodyScale;
+    const torsoW = 56 * bodyScale;
+    const torsoH = 100 * bodyScale;
+    const legW = 18 * bodyScale;
+    const legH = 80 * bodyScale;
+    const armW = 14 * bodyScale;
+    const armH = 70 * bodyScale;
+
+    // Position: legs at bottom, head at top — foreshortened from below
+    const feetY = h * 0.85;
+    const torsoTopY = feetY - legH - torsoH;
+    const headY = torsoTopY - headRadius * 0.6;
+
+    // Legs (closest to camera, largest)
+    const legSpread = 12;
+    // Walking animation
+    const walkPhase = Math.sin(frameCount * 0.04) * 4;
+    ctx.fillStyle = 'rgba(70, 75, 100, 0.65)';
+    // Left leg
+    roundRect(ctx, pCenterX - legSpread - legW / 2 + sway, feetY - legH + walkPhase, legW, legH, 6);
     ctx.fill();
-    ctx.strokeStyle = 'rgba(139, 92, 246, 0.2)';
-    roundRect(ctx, w * 0.65, h * 0.42, w * 0.28, h * 0.18, 8);
-    ctx.stroke();
-    // Sofa back
-    ctx.fillStyle = 'rgba(139, 92, 246, 0.08)';
-    roundRect(ctx, w * 0.66, h * 0.35, w * 0.26, h * 0.1, 6);
+    // Right leg
+    roundRect(ctx, pCenterX + legSpread - legW / 2 + sway, feetY - legH - walkPhase, legW, legH, 6);
     ctx.fill();
 
-    // Table (center)
-    ctx.fillStyle = 'rgba(255, 165, 0, 0.08)';
-    roundRect(ctx, w * 0.35, h * 0.5, w * 0.2, h * 0.1, 4);
+    // Shoes
+    ctx.fillStyle = 'rgba(90, 60, 40, 0.6)';
+    roundRect(ctx, pCenterX - legSpread - legW / 2 - 3 + sway, feetY - 10 + walkPhase, legW + 6, 14, 5);
     ctx.fill();
-    ctx.strokeStyle = 'rgba(255, 165, 0, 0.15)';
-    roundRect(ctx, w * 0.35, h * 0.5, w * 0.2, h * 0.1, 4);
-    ctx.stroke();
+    roundRect(ctx, pCenterX + legSpread - legW / 2 - 3 + sway, feetY - 10 - walkPhase, legW + 6, 14, 5);
+    ctx.fill();
 
-    // Animated person (elderly figure)
-    personX += personDir * 0.3;
-    if (personX > w * 0.55 || personX < w * 0.3) personDir *= -1;
-    const sway = Math.sin(frameCount * 0.03) * 2;
-
-    // Body
-    ctx.fillStyle = 'rgba(255, 200, 150, 0.7)';
+    // Torso (slightly smaller due to perspective)
+    ctx.fillStyle = 'rgba(100, 149, 237, 0.45)';
+    roundRect(ctx, pCenterX - torsoW / 2 + sway, torsoTopY + breathe, torsoW, torsoH, 10);
+    ctx.fill();
+    // Shirt collar detail
+    ctx.fillStyle = 'rgba(120, 169, 255, 0.2)';
     ctx.beginPath();
-    ctx.arc(personX + sway, personY - 20, 12, 0, Math.PI * 2); // Head
+    ctx.ellipse(pCenterX + sway, torsoTopY + 10 + breathe, 16, 6, 0, 0, Math.PI);
     ctx.fill();
 
-    ctx.fillStyle = 'rgba(100, 149, 237, 0.5)';
-    ctx.fillRect(personX - 10 + sway, personY - 8, 20, 35); // Torso
-    ctx.fillStyle = 'rgba(80, 80, 100, 0.5)';
-    ctx.fillRect(personX - 8 + sway, personY + 27, 7, 25); // Left leg
-    ctx.fillRect(personX + 1 + sway, personY + 27, 7, 25); // Right leg
+    // Arms
+    const armSwing = Math.sin(frameCount * 0.04) * 6;
+    ctx.fillStyle = 'rgba(100, 149, 237, 0.35)';
+    // Left arm
+    roundRect(ctx, pCenterX - torsoW / 2 - armW + sway, torsoTopY + 15 + breathe - armSwing, armW, armH, 5);
+    ctx.fill();
+    // Right arm
+    roundRect(ctx, pCenterX + torsoW / 2 + sway, torsoTopY + 15 + breathe + armSwing, armW, armH, 5);
+    ctx.fill();
 
-    // LOVOT robot (small cute figure near person)
-    const lovotX = personX + 60 + Math.sin(frameCount * 0.02) * 5;
-    const lovotY = h * 0.52;
-    const lovotBob = Math.sin(frameCount * 0.05) * 2;
-
-    // LOVOT body
-    ctx.fillStyle = 'rgba(255, 107, 107, 0.6)';
+    // Hands
+    ctx.fillStyle = 'rgba(255, 200, 150, 0.55)';
     ctx.beginPath();
-    ctx.ellipse(lovotX, lovotY + lovotBob, 14, 18, 0, 0, Math.PI * 2);
+    ctx.arc(pCenterX - torsoW / 2 - armW / 2 + sway, torsoTopY + 15 + armH + breathe - armSwing, 7, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.beginPath();
+    ctx.arc(pCenterX + torsoW / 2 + armW / 2 + sway, torsoTopY + 15 + armH + breathe + armSwing, 7, 0, Math.PI * 2);
     ctx.fill();
 
-    // LOVOT eyes
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+    // Head (smallest due to distance — furthest from low camera)
+    ctx.fillStyle = 'rgba(255, 200, 150, 0.65)';
     ctx.beginPath();
-    ctx.arc(lovotX - 5, lovotY - 5 + lovotBob, 3, 0, Math.PI * 2);
-    ctx.arc(lovotX + 5, lovotY - 5 + lovotBob, 3, 0, Math.PI * 2);
-    ctx.fill();
-    ctx.fillStyle = '#333';
-    ctx.beginPath();
-    ctx.arc(lovotX - 5, lovotY - 5 + lovotBob, 1.5, 0, Math.PI * 2);
-    ctx.arc(lovotX + 5, lovotY - 5 + lovotBob, 1.5, 0, Math.PI * 2);
+    ctx.arc(pCenterX + sway, headY + breathe, headRadius, 0, Math.PI * 2);
     ctx.fill();
 
-    // LOVOT horn/sensor
-    ctx.strokeStyle = 'rgba(255, 107, 107, 0.8)';
+    // Hair
+    ctx.fillStyle = 'rgba(180, 180, 190, 0.4)';
+    ctx.beginPath();
+    ctx.ellipse(pCenterX + sway, headY - 10 + breathe, headRadius + 2, headRadius * 0.7, 0, Math.PI, Math.PI * 2);
+    ctx.fill();
+
+    // Face features (simple — we're looking up, so we see mostly chin & mouth)
+    // Mouth / smile
+    ctx.strokeStyle = 'rgba(200, 120, 100, 0.4)';
     ctx.lineWidth = 2;
     ctx.beginPath();
-    ctx.moveTo(lovotX, lovotY - 16 + lovotBob);
-    ctx.lineTo(lovotX, lovotY - 26 + lovotBob);
+    ctx.arc(pCenterX + sway, headY + 8 + breathe, 8, 0.15 * Math.PI, 0.85 * Math.PI);
     ctx.stroke();
-    ctx.fillStyle = 'rgba(240, 165, 0, 0.8)';
+
+    // Eyes (partially visible from below)
+    ctx.fillStyle = 'rgba(60, 60, 80, 0.6)';
     ctx.beginPath();
-    ctx.arc(lovotX, lovotY - 27 + lovotBob, 3, 0, Math.PI * 2);
+    ctx.arc(pCenterX - 9 + sway, headY - 2 + breathe, 3.5, 0, Math.PI * 2);
+    ctx.arc(pCenterX + 9 + sway, headY - 2 + breathe, 3.5, 0, Math.PI * 2);
+    ctx.fill();
+    // Eye glint
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';
+    ctx.beginPath();
+    ctx.arc(pCenterX - 8 + sway, headY - 3 + breathe, 1.2, 0, Math.PI * 2);
+    ctx.arc(pCenterX + 10 + sway, headY - 3 + breathe, 1.2, 0, Math.PI * 2);
     ctx.fill();
 
-    // Scanline effect
+    // ── Update shared tracking coordinates for face detection overlay ──
+    _personHeadScreenX = pCenterX + sway;
+    _personHeadScreenY = headY + breathe;
+
+    // ── LOVOT "nose" edge — subtle wide-angle lens border ──
+    // Slight fisheye darkening at edges
+    const fishGrad = ctx.createRadialGradient(w / 2, h * 0.6, w * 0.15, w / 2, h * 0.6, w * 0.72);
+    fishGrad.addColorStop(0, 'transparent');
+    fishGrad.addColorStop(0.85, 'transparent');
+    fishGrad.addColorStop(1, 'rgba(0,0,0,0.35)');
+    ctx.fillStyle = fishGrad;
+    ctx.fillRect(0, 0, w, h);
+
+    // Slight sensor horn shadow at top center (LOVOT's own horn in frame)
+    ctx.fillStyle = 'rgba(0,0,0,0.25)';
+    ctx.beginPath();
+    ctx.moveTo(w * 0.46, 0);
+    ctx.lineTo(w * 0.54, 0);
+    ctx.lineTo(w * 0.52, h * 0.04);
+    ctx.lineTo(w * 0.48, h * 0.04);
+    ctx.closePath();
+    ctx.fill();
+
+    // ── Scanline effect ──
     noiseOffset = (noiseOffset + 1) % h;
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.012)';
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.010)';
     for (let y = 0; y < h; y += 3) {
       if ((y + noiseOffset) % 6 < 3) {
         ctx.fillRect(0, y, w, 1);
       }
     }
 
-    // Vignette
-    const vg = ctx.createRadialGradient(w / 2, h / 2, w * 0.25, w / 2, h / 2, w * 0.7);
+    // ── Vignette ──
+    const vg = ctx.createRadialGradient(w / 2, h / 2, w * 0.2, w / 2, h / 2, w * 0.72);
     vg.addColorStop(0, 'transparent');
-    vg.addColorStop(1, 'rgba(0,0,0,0.5)');
+    vg.addColorStop(1, 'rgba(0,0,0,0.55)');
     ctx.fillStyle = vg;
     ctx.fillRect(0, 0, w, h);
 
-    // Camera info overlay
-    ctx.fillStyle = 'rgba(255,255,255,0.5)';
+    // ── Camera info overlay ──
+    ctx.fillStyle = 'rgba(255,255,255,0.45)';
     ctx.font = '11px "Courier New", monospace';
-    ctx.fillText(t('livingRoom'), 16, h - 14);
+    ctx.fillText('LOVOT POV — ' + t('livingRoom'), 16, h - 14);
+
+    // ── Update face detection box continuously ──
+    if (faceDetectionOn) updateFaceBoxes();
 
     requestAnimationFrame(drawFrame);
   }
@@ -554,7 +690,7 @@ function initCCTV() {
   document.getElementById('btn-dismiss-fall')?.addEventListener('click', dismissFall);
   document.getElementById('btn-toggle-faces')?.addEventListener('click', toggleFaceDetection);
 
-  // Draw face detection boxes
+  // Initial face detection boxes
   updateFaceBoxes();
 }
 
@@ -598,21 +734,27 @@ function updateFaceBoxes() {
 
   if (!faceDetectionOn) return;
 
-  // Simulated face bounding boxes
-  const boxes = [
-    { x: '35%', y: '20%', w: '50px', h: '55px', name: 'Ah Ma', conf: '97%' },
-  ];
+  // Convert canvas pixel coords to percentage of the overlay container
+  const container = overlay.parentElement;
+  if (!container) return;
+  const cw = container.offsetWidth;
+  const ch = container.offsetHeight;
 
-  boxes.forEach(b => {
-    const div = document.createElement('div');
-    div.className = 'face-box';
-    div.style.left = b.x;
-    div.style.top = b.y;
-    div.style.width = b.w;
-    div.style.height = b.h;
-    div.innerHTML = `<span class="face-label">${b.name} (${b.conf})</span>`;
-    overlay.appendChild(div);
-  });
+  // Map from canvas coords to container percentage
+  const faceBoxW = 68;
+  const faceBoxH = 72;
+  const headXpx = (_personHeadScreenX / _cctvCanvasW) * cw;
+  const headYpx = (_personHeadScreenY / _cctvCanvasH) * ch;
+
+  const div = document.createElement('div');
+  div.className = 'face-box';
+  div.style.left = (headXpx - faceBoxW / 2) + 'px';
+  div.style.top = (headYpx - faceBoxH / 2) + 'px';
+  div.style.width = faceBoxW + 'px';
+  div.style.height = faceBoxH + 'px';
+  div.style.transition = 'left 0.08s linear, top 0.08s linear';
+  div.innerHTML = `<span class="face-label">Ah Ma (97%)</span>`;
+  overlay.appendChild(div);
 }
 
 // ─── Reminders ───────────────────────────────────────────────────
