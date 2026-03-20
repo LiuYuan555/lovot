@@ -45,6 +45,18 @@
           <span class="icon">📊</span>
           <span data-i18n="activityReport">Activity Report</span>
         </button>
+        <button class="nav-link" data-section="section-call">
+          <span class="icon">📞</span>
+          <span data-i18n="callLovot">Call LOVOT</span>
+        </button>
+        <button class="nav-link" data-section="section-forum">
+          <span class="icon">🗣️</span>
+          <span data-i18n="communityForum">Community Forum</span>
+        </button>
+        <button class="nav-link" data-section="section-activities">
+          <span class="icon">🎯</span>
+          <span data-i18n="activities">Activities</span>
+        </button>
       </nav>
 
       <!-- Dialect Selector -->
@@ -235,7 +247,35 @@
               <div class="stat-value" id="stat-mood">—</div>
               <div class="stat-label" data-i18n="moodScore">Mood Score</div>
             </div>
+            <div class="stat-card purple">
+              <div class="stat-icon">🛋️</div>
+              <div class="stat-value" id="stat-idle">—</div>
+              <div class="stat-label" data-i18n="timeIdle">Time Idle</div>
+            </div>
+            <div class="stat-card green">
+              <div class="stat-icon">🚶</div>
+              <div class="stat-value" id="stat-moving">—</div>
+              <div class="stat-label" data-i18n="timeMoving">Time Moving</div>
+            </div>
+            <div class="stat-card pink">
+              <div class="stat-icon">🗣️</div>
+              <div class="stat-value" id="stat-social">—</div>
+              <div class="stat-label" data-i18n="socialInteractions">Social Time</div>
+            </div>
+            <div class="stat-card indigo">
+              <div class="stat-icon">😴</div>
+              <div class="stat-value" id="stat-sleep">—</div>
+              <div class="stat-label" data-i18n="sleepQuality">Sleep Quality</div>
+            </div>
           </div>
+
+          <!-- Daily Time Breakdown -->
+          <h4 class="card-title mt-12" style="font-size: 14px; margin-bottom: 12px;">
+            <span>🕐</span>
+            <span data-i18n="dailyBreakdown">Daily Time Breakdown</span>
+          </h4>
+          <div id="time-breakdown" class="time-breakdown"></div>
+          <div id="time-breakdown-legend" class="time-breakdown-legend"></div>
 
           <!-- Chart -->
           <h4 class="card-title mt-12" style="font-size: 14px; margin-bottom: 12px;">
@@ -249,6 +289,35 @@
             <button id="btn-generate-report" class="btn-primary" data-i18n="generateReport">Generate Report</button>
             <button id="btn-export-pdf" class="btn-secondary" data-i18n="exportPdf">Export PDF</button>
           </div>
+        </section>
+
+        <!-- ═══════ Community Forum Section ═══════ -->
+        <section class="card report-section" id="section-forum">
+          <div class="card-header">
+            <h3 class="card-title">
+              <span class="icon">🗣️</span>
+              <span data-i18n="communityForum">Caregiver Community Forum</span>
+            </h3>
+          </div>
+          <p class="section-subtitle" data-i18n="forumSubtitle">Connect with fellow LOVOT caregivers. Share experiences, ask questions, and support each other.</p>
+          <div id="forum-threads" class="forum-threads"></div>
+        </section>
+
+        <!-- ═══════ Activities Section ═══════ -->
+        <section class="card report-section" id="section-activities">
+          <div class="card-header">
+            <h3 class="card-title">
+              <span class="icon">🎯</span>
+              <span data-i18n="activities">Available Activities</span>
+            </h3>
+          </div>
+          <p class="section-subtitle" data-i18n="activitiesSubtitle">Discover events and activities to enrich your loved one's daily life.</p>
+          <div id="activity-tabs" class="activity-tabs">
+            <button class="activity-tab active" data-category="local" data-i18n="localEvents">Local Events</button>
+            <button class="activity-tab" data-category="nearby" data-i18n="nearbyActivities">Nearby</button>
+            <button class="activity-tab" data-category="overseas" data-i18n="overseasTravel">Overseas Travel</button>
+          </div>
+          <div id="activities-grid" class="activities-grid"></div>
         </section>
 
       </div><!-- /dashboard-grid -->

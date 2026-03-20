@@ -11,6 +11,8 @@ const translations = {
     reminders: "Reminders",
     facialRec: "Facial Recognition",
     activityReport: "Activity Report",
+    communityForum: "Community Forum",
+    activities: "Activities",
     dialect: "Language / Dialect",
     pageTitle: "Caregiver Dashboard",
     lovotOnline: "LOVOT Online",
@@ -39,6 +41,11 @@ const translations = {
     alertsToday: "Alerts Today",
     activeHours: "Active Hours",
     moodScore: "Mood Score",
+    timeIdle: "Time Idle",
+    timeMoving: "Time Moving",
+    socialInteractions: "Social Time",
+    sleepQuality: "Sleep Quality",
+    dailyBreakdown: "Daily Time Breakdown",
     generateReport: "Generate Report",
     exportPdf: "Export PDF",
     weeklyActivity: "Weekly Activity Overview",
@@ -48,6 +55,11 @@ const translations = {
     caregiverNotified: "Caregiver has been notified via SMS & app push notification.",
     noReminders: "No reminders yet. Add one above!",
     reminderPlaceholder: "e.g. Take blood pressure medicine",
+    forumSubtitle: "Connect with fellow LOVOT caregivers. Share experiences, ask questions, and support each other.",
+    activitiesSubtitle: "Discover events and activities to enrich your loved one's daily life.",
+    localEvents: "Local Events",
+    nearbyActivities: "Nearby",
+    overseasTravel: "Overseas Travel",
     mon: "Mon", tue: "Tue", wed: "Wed", thu: "Thu", fri: "Fri", sat: "Sat", sun: "Sun",
     recording: "REC",
     livingRoom: "Living Room — Camera 1"
@@ -366,6 +378,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initReminders();
   initFaceRecognition();
   initActivityReport();
+  initForum();
+  initActivities();
   initDialectSelector();
   initNavigation();
   initMobileToggle();
@@ -911,12 +925,23 @@ function generateReport() {
     alerts: Math.floor(Math.random() * 4),
     activeHours: (Math.random() * 6 + 8).toFixed(1),
     mood: Math.floor(Math.random() * 20) + 75,
+    idle: (Math.random() * 4 + 3).toFixed(1),
+    moving: (Math.random() * 3 + 1.5).toFixed(1),
+    social: Math.floor(Math.random() * 10) + 5,
+    sleep: Math.floor(Math.random() * 20) + 70,
   };
 
   document.getElementById('stat-interactions').textContent = stats.interactions;
   document.getElementById('stat-alerts').textContent = stats.alerts;
   document.getElementById('stat-active').textContent = stats.activeHours + 'h';
   document.getElementById('stat-mood').textContent = stats.mood + '%';
+  document.getElementById('stat-idle').textContent = stats.idle + 'h';
+  document.getElementById('stat-moving').textContent = stats.moving + 'h';
+  document.getElementById('stat-social').textContent = stats.social;
+  document.getElementById('stat-sleep').textContent = stats.sleep + '%';
+
+  // Time breakdown bar
+  renderTimeBreakdown(stats);
 
   // Chart bars
   const chartContainer = document.getElementById('activity-chart');
@@ -941,8 +966,195 @@ function generateReport() {
   });
 }
 
+function renderTimeBreakdown(stats) {
+  const container = document.getElementById('time-breakdown');
+  const legend = document.getElementById('time-breakdown-legend');
+  if (!container || !legend) return;
+
+  const totalHours = 24;
+  const sleepH = (stats.sleep / 100 * 8).toFixed(1);
+  const idleH = parseFloat(stats.idle);
+  const movingH = parseFloat(stats.moving);
+  const socialH = (stats.social * 0.25).toFixed(1);
+  const otherH = Math.max(0, totalHours - sleepH - idleH - movingH - socialH).toFixed(1);
+
+  const segments = [
+    { label: 'Sleep', hours: parseFloat(sleepH), color: '#6366f1' },
+    { label: 'Idle/Rest', hours: idleH, color: '#b197fc' },
+    { label: 'Movement', hours: movingH, color: '#2ecc71' },
+    { label: 'Social', hours: parseFloat(socialH), color: '#f8a4c8' },
+    { label: 'Other', hours: parseFloat(otherH), color: '#e2dff0' },
+  ];
+
+  container.innerHTML = '';
+  segments.forEach((seg, i) => {
+    const pct = (seg.hours / totalHours * 100).toFixed(1);
+    const div = document.createElement('div');
+    div.className = 'tb-segment';
+    div.style.width = '0%';
+    div.style.background = seg.color;
+    div.title = `${seg.label}: ${seg.hours}h (${pct}%)`;
+    if (parseFloat(pct) > 8) div.textContent = seg.hours + 'h';
+    container.appendChild(div);
+    setTimeout(() => { div.style.width = pct + '%'; }, i * 80);
+  });
+
+  legend.innerHTML = segments.map(seg =>
+    `<span class="legend-item"><span class="legend-dot" style="background:${seg.color}"></span>${seg.label} (${seg.hours}h)</span>`
+  ).join('');
+}
+
 function exportReport() {
   showToast('📄', 'Activity report exported as PDF (simulated).', 'success');
+}
+
+// ─── Community Forum ───────────────────────────────────────────────────────
+const forumThreads = [
+  {
+    id: 1,
+    author: 'CaregiverJen',
+    avatar: '👩',
+    title: 'Feeling guilty about needing a break — anyone else?',
+    preview: "I’ve been caring for my mum for 3 years now and some days I just feel so burnt out. I love her but I feel guilty every time I want time for myself. LOVOT has been a godsend because it keeps her company while I take 30 minutes to breathe, but the guilt doesn’t go away...",
+    votes: 47,
+    commentCount: 12,
+    time: '3 hours ago',
+    replies: [
+      { author: 'DavidT_SG', avatar: '👨', text: "Jen, you are not alone. I went through the exact same thing with my dad. Taking breaks doesn’t mean you love them less — it means you’re making sure you can keep going. You’re doing an amazing job. ❤️", time: '2 hours ago' },
+      { author: 'NurseMary', avatar: '👩‍⚕️', text: 'As a home nurse I see this all the time. Caregiver burnout is real and it’s nothing to be ashamed of. The fact that you set up LOVOT to keep her engaged shows how thoughtful you are. Please take that break guilt-free!', time: '1 hour ago' },
+      { author: 'AhMa_Lover88', avatar: '🧓', text: 'I felt the same until my support group helped me realise self-care IS caregiving. If you collapse, who looks after mum? LOVOT’s reminders help me structure my breaks now — try setting a daily 30 min \'me time\' reminder!', time: '45 min ago' }
+    ]
+  },
+  {
+    id: 2,
+    author: 'MrTanKH',
+    avatar: '👨‍🦳',
+    title: 'How do you manage sundowning with LOVOT?',
+    preview: 'My father gets agitated every evening around 5–6pm (sundowning). Has anyone found ways to use LOVOT to help calm them during this time? I’ve tried the music feature but looking for more ideas.',
+    votes: 32,
+    commentCount: 8,
+    time: '6 hours ago',
+    replies: [
+      { author: 'CaregiverJen', avatar: '👩', text: 'We found that having LOVOT do its companion routine (the gentle rocking and soft sounds) really helps mum settle down. Also keeping the lights warm and dimmed. The CCTV helps me monitor from the kitchen while cooking dinner.', time: '5 hours ago' },
+      { author: 'Dr_LimPsych', avatar: '👨‍⚕️', text: 'Sundowning is very common with dementia. Structured routine is key. I recommend using LOVOT’s reminder system to start calming activities at 4:30pm — before the agitation peaks. Consistency helps enormously.', time: '4 hours ago' }
+    ]
+  },
+  {
+    id: 3,
+    author: 'SarahCares',
+    avatar: '👩‍🦰',
+    title: 'LOVOT helped us catch a fall we would have missed',
+    preview: 'Just want to share a positive story. Last week LOVOT’s fall detection alert went off while I was at work. My neighbour was able to rush over and help my grandmother who had tripped in the bathroom. She’s fine now but without the alert it could have been hours before anyone found her.',
+    votes: 89,
+    commentCount: 21,
+    time: '1 day ago',
+    replies: [
+      { author: 'TechHelperSG', avatar: '🧑‍💻', text: 'This is exactly why these systems matter. So glad your grandmother is okay! Make sure the emergency contacts are all up to date in the settings.', time: '22 hours ago' },
+      { author: 'MrTanKH', avatar: '👨‍🦳', text: 'What a relief! This gives me confidence. I’ve been on the fence about the fall detection but stories like this really show its value.', time: '20 hours ago' },
+      { author: 'CaregiverJen', avatar: '👩', text: 'So happy she’s safe, Sarah! 🙏 This community is proof that we’re all in this together.', time: '18 hours ago' }
+    ]
+  }
+];
+
+function initForum() {
+  renderForumThreads();
+}
+
+function renderForumThreads() {
+  const container = document.getElementById('forum-threads');
+  if (!container) return;
+
+  container.innerHTML = forumThreads.map(thread => `
+    <div class="forum-thread" data-thread-id="${thread.id}">
+      <div class="thread-main" onclick="toggleThread(${thread.id})">
+        <div class="thread-votes">
+          <button class="vote-btn" onclick="event.stopPropagation()">▲</button>
+          <span class="vote-count">${thread.votes}</span>
+          <button class="vote-btn" onclick="event.stopPropagation()">▼</button>
+        </div>
+        <div class="thread-avatar">${thread.avatar}</div>
+        <div class="thread-content">
+          <div class="thread-title">${thread.title}</div>
+          <div class="thread-preview">${thread.preview}</div>
+          <div class="thread-meta">
+            <span class="meta-item">👤 ${thread.author}</span>
+            <span class="meta-item">💬 ${thread.commentCount} replies</span>
+            <span class="meta-item">🕒 ${thread.time}</span>
+          </div>
+        </div>
+      </div>
+      <div class="thread-expand-hint" onclick="toggleThread(${thread.id})">Click to view replies ▾</div>
+      <div class="thread-replies" id="replies-${thread.id}">
+        ${thread.replies.map(r => `
+          <div class="reply-item">
+            <div class="reply-avatar">${r.avatar}</div>
+            <div class="reply-content">
+              <div class="reply-author">${r.author}</div>
+              <div class="reply-text">${r.text}</div>
+              <div class="reply-time">${r.time}</div>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `).join('');
+}
+
+function toggleThread(id) {
+  const replies = document.getElementById('replies-' + id);
+  if (replies) replies.classList.toggle('open');
+}
+
+// ─── Available Activities ─────────────────────────────────────────────────
+const activitiesData = [
+  // Local Events
+  { category: 'local', icon: '🎭', title: 'Chingay Parade 2026', location: 'F1 Pit Building, Marina Bay', date: 'Sat, 22 Mar 2026', desc: 'Singapore\'s largest street performance and float parade. Wheelchair-accessible viewing areas available. A vibrant celebration of multicultural heritage.' },
+  { category: 'local', icon: '🎶', title: 'Silver Strings Concert', location: 'Esplanade Recital Studio', date: 'Sun, 30 Mar 2026', desc: 'Free concert by the Silver Strings ensemble — senior musicians performing classic Mandarin and English favourites. Great for a relaxing afternoon out.' },
+  { category: 'local', icon: '🎨', title: 'Heartlands Art Workshop', location: 'Toa Payoh CC, Blk 190', date: 'Every Wednesday, 10am', desc: 'Weekly watercolour painting class for seniors. Materials provided. A wonderful way to express creativity and socialise with neighbours.' },
+  { category: 'local', icon: '🌺', title: 'Gardens by the Bay — Senior Walk', location: 'Gardens by the Bay, South', date: 'Daily, 7am–9am', desc: 'Free morning entry for seniors (60+). Guided walking routes through the Flower Dome with shaded rest stops and benches.' },
+  // Nearby Activities
+  { category: 'nearby', icon: '🧘', title: 'Tai Chi in the Park', location: 'Bishan-Ang Mo Kio Park', date: 'Tue & Thu, 7:30am', desc: 'Free outdoor Tai Chi sessions led by certified instructors. Suitable for all mobility levels. Gentle exercise that improves balance and reduces fall risk.' },
+  { category: 'nearby', icon: '🎲', title: 'Mahjong Social Club', location: 'Void Deck, Blk 123 Toa Payoh', date: 'Mon, Wed, Fri, 2pm–5pm', desc: 'Community mahjong sessions for seniors. Great cognitive exercise and social bonding. Tea and snacks provided by volunteers.' },
+  { category: 'nearby', icon: '📚', title: 'Library Reading Circle', location: 'Toa Payoh Public Library', date: 'Every Saturday, 10:30am', desc: 'Weekly reading and discussion group. Large-print books available. A relaxed space to share stories and make friends.' },
+  { category: 'nearby', icon: '🍳', title: 'Cook & Bond: Heritage Recipes', location: 'Bishan CC Kitchen Studio', date: 'First Sunday of each month', desc: 'Seniors teach their heritage recipes to younger volunteers. A beautiful intergenerational bonding activity.' },
+  // Overseas Travel
+  { category: 'overseas', icon: '⛩️', title: 'Cameron Highlands Retreat', location: 'Pahang, Malaysia', date: '5–7 Apr 2026 (3D2N)', desc: 'Gentle senior-friendly tour of tea plantations, strawberry farms, and local markets. Cool climate, slow pace, wheelchair-accessible transport.' },
+  { category: 'overseas', icon: '🏯', title: 'Kyoto Cherry Blossom Tour', location: 'Kyoto, Japan', date: '10–16 Apr 2026 (7D6N)', desc: 'Guided senior tour with temple visits, tea ceremonies, and cherry blossom viewing. Includes medical escort and accessibility support.' },
+  { category: 'overseas', icon: '🏖️', title: 'Bali Wellness Retreat', location: 'Ubud, Bali, Indonesia', date: '1–5 May 2026 (5D4N)', desc: 'Spa, yoga, and relaxation retreat designed for seniors. Gentle activities, nutritious meals, and beautiful scenery.' },
+  { category: 'overseas', icon: '🌊', title: 'Penang Heritage & Food Tour', location: 'Georgetown, Penang, Malaysia', date: '20–22 May 2026 (3D2N)', desc: 'Explore UNESCO heritage sites, hawker food tours, and Peranakan culture. Flat terrain, no strenuous walking required.' }
+];
+
+let currentActivityCategory = 'local';
+
+function initActivities() {
+  renderActivities();
+
+  document.querySelectorAll('.activity-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.activity-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      currentActivityCategory = tab.getAttribute('data-category');
+      renderActivities();
+    });
+  });
+}
+
+function renderActivities() {
+  const grid = document.getElementById('activities-grid');
+  if (!grid) return;
+
+  const filtered = activitiesData.filter(a => a.category === currentActivityCategory);
+
+  grid.innerHTML = filtered.map(evt => `
+    <div class="event-card">
+      <div class="event-icon">${evt.icon}</div>
+      <div class="event-title">${evt.title}</div>
+      <div class="event-location">📍 ${evt.location}</div>
+      <div class="event-date">📅 ${evt.date}</div>
+      <div class="event-desc">${evt.desc}</div>
+      <button class="event-action">Learn More →</button>
+    </div>
+  `).join('');
 }
 
 // ─── Dialect Selector ────────────────────────────────────────────
