@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="LOVOT Caregiver Companion Dashboard — Monitor your LOVOT elderly care robot with CCTV, fall detection, reminders, facial recognition, and activity reports.">
   <title>LOVOT — Caregiver Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
 </head>
@@ -21,11 +24,8 @@
     <!-- ═══════════════════ SIDEBAR ═══════════════════ -->
     <aside class="sidebar" id="sidebar">
       <div class="sidebar-brand">
-        <div class="brand-icon">🤖</div>
-        <div class="brand-text">
-          <h1>LOVOT</h1>
-          <span>Caregiver Companion</span>
-        </div>
+        <img src="https://lovot.life/images/header/logo.svg" alt="LOVOT" class="brand-logo">
+        <span class="brand-subtitle">Caregiver Companion</span>
       </div>
 
       <nav class="sidebar-nav">
@@ -56,6 +56,10 @@
         <button class="nav-link" data-section="section-activities">
           <span class="icon">🎯</span>
           <span data-i18n="activities">Activities</span>
+        </button>
+        <button class="nav-link" data-section="section-articles">
+          <span class="icon">📰</span>
+          <span data-i18n="articles">Articles</span>
         </button>
       </nav>
 
@@ -318,6 +322,18 @@
             <button class="activity-tab" data-category="overseas" data-i18n="overseasTravel">Overseas Travel</button>
           </div>
           <div id="activities-grid" class="activities-grid"></div>
+        </section>
+
+        <!-- ═══════ Articles Section ═══════ -->
+        <section class="card report-section" id="section-articles">
+          <div class="card-header">
+            <h3 class="card-title">
+              <span class="icon">📰</span>
+              <span data-i18n="articlesSectionTitle">Caregiver Articles</span>
+            </h3>
+          </div>
+          <p class="section-subtitle" data-i18n="articlesSubtitle">Helpful tips and guides for LOVOT caregivers.</p>
+          <div id="articles-grid" class="articles-grid"></div>
         </section>
 
       </div><!-- /dashboard-grid -->

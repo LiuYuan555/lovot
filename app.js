@@ -62,7 +62,10 @@ const translations = {
     overseasTravel: "Overseas Travel",
     mon: "Mon", tue: "Tue", wed: "Wed", thu: "Thu", fri: "Fri", sat: "Sat", sun: "Sun",
     recording: "REC",
-    livingRoom: "Living Room — Camera 1"
+    livingRoom: "Living Room — Camera 1",
+    articles: "Articles",
+    articlesSectionTitle: "Caregiver Articles",
+    articlesSubtitle: "Helpful tips and guides for LOVOT caregivers."
   },
   zh: {
     name: "华语 (Mandarin)",
@@ -110,7 +113,10 @@ const translations = {
     reminderPlaceholder: "例如：服用降压药",
     mon: "周一", tue: "周二", wed: "周三", thu: "周四", fri: "周五", sat: "周六", sun: "周日",
     recording: "录制中",
-    livingRoom: "客厅 — 摄像头 1"
+    livingRoom: "客厅 — 摄像头 1",
+    articles: "文章",
+    articlesSectionTitle: "看护者文章",
+    articlesSubtitle: "为LOVOT看护者提供实用的建议和指南。"
   },
   hokkien: {
     name: "福建话 (Hokkien)",
@@ -158,7 +164,10 @@ const translations = {
     reminderPlaceholder: "例如：吃血压药",
     mon: "礼拜一", tue: "礼拜二", wed: "礼拜三", thu: "礼拜四", fri: "礼拜五", sat: "礼拜六", sun: "礼拜日",
     recording: "录制中",
-    livingRoom: "客厅 — 摄像机 1"
+    livingRoom: "客厅 — 摄像机 1",
+    articles: "文章",
+    articlesSectionTitle: "看护人文章",
+    articlesSubtitle: "给LOVOT看护人的贴士和指南。"
   },
   teochew: {
     name: "潮州话 (Teochew)",
@@ -206,7 +215,10 @@ const translations = {
     reminderPlaceholder: "例如：食降血压药",
     mon: "拜一", tue: "拜二", wed: "拜三", thu: "拜四", fri: "拜五", sat: "拜六", sun: "礼拜",
     recording: "录制",
-    livingRoom: "客厅 — 摄像头 1"
+    livingRoom: "客厅 — 摄像头 1",
+    articles: "文章",
+    articlesSectionTitle: "看护人文章",
+    articlesSubtitle: "给LOVOT看护人的提示和指南。"
   },
   cantonese: {
     name: "广东话 (Cantonese)",
@@ -254,7 +266,10 @@ const translations = {
     reminderPlaceholder: "例如：食血压药",
     mon: "星期一", tue: "星期二", wed: "星期三", thu: "星期四", fri: "星期五", sat: "星期六", sun: "星期日",
     recording: "录紧",
-    livingRoom: "客厅 — 镜头 1"
+    livingRoom: "客厅 — 镜头 1",
+    articles: "文章",
+    articlesSectionTitle: "护理人员文章",
+    articlesSubtitle: "为LOVOT护理人员提供实用贴士和指南。"
   },
   ms: {
     name: "Bahasa Melayu",
@@ -302,7 +317,10 @@ const translations = {
     reminderPlaceholder: "cth. Ambil ubat tekanan darah",
     mon: "Isn", tue: "Sel", wed: "Rab", thu: "Kha", fri: "Jum", sat: "Sab", sun: "Ahd",
     recording: "RAKAM",
-    livingRoom: "Ruang Tamu — Kamera 1"
+    livingRoom: "Ruang Tamu — Kamera 1",
+    articles: "Artikel",
+    articlesSectionTitle: "Artikel Penjaga",
+    articlesSubtitle: "Panduan dan tip berguna untuk penjaga LOVOT."
   },
   ta: {
     name: "தமிழ் (Tamil)",
@@ -350,7 +368,10 @@ const translations = {
     reminderPlaceholder: "எ.கா. இரத்த அழுத்த மருந்து எடு",
     mon: "திங்", tue: "செவ்", wed: "புத", thu: "வியா", fri: "வெள்", sat: "சனி", sun: "ஞாயி",
     recording: "பதிவு",
-    livingRoom: "அறை — கேமரா 1"
+    livingRoom: "அறை — கேமரா 1",
+    articles: "கட்டுரைகள்",
+    articlesSectionTitle: "பராமரிப்பாளர் கட்டுரைகள்",
+    articlesSubtitle: "LOVOT பராமரிப்பாளர்களுக்கான பயனுள்ள வழிகாட்டிகள்."
   }
 };
 
@@ -380,6 +401,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initActivityReport();
   initForum();
   initActivities();
+  initArticles();
   initDialectSelector();
   initNavigation();
   initMobileToggle();
@@ -1153,6 +1175,76 @@ function renderActivities() {
       <div class="event-date">📅 ${evt.date}</div>
       <div class="event-desc">${evt.desc}</div>
       <button class="event-action">Learn More →</button>
+    </div>
+  `).join('');
+}
+
+// ─── Articles ─────────────────────────────────────────────────────
+const articlesData = [
+  {
+    icon: '💊',
+    tag: 'Health',
+    title: 'Managing Medication Reminders with LOVOT',
+    excerpt: 'Learn how to set up daily medication schedules so LOVOT can gently remind your loved one at the right times. Includes tips for multi-dose routines and tracking adherence.',
+    date: '20 Mar 2026',
+  },
+  {
+    icon: '🤝',
+    tag: 'Companionship',
+    title: 'How LOVOT Reduces Loneliness in Seniors',
+    excerpt: 'Research shows companion robots significantly reduce feelings of isolation. Discover how LOVOT\'s warmth and responsiveness makes a meaningful difference in daily wellbeing.',
+    date: '15 Mar 2026',
+  },
+  {
+    icon: '🛡️',
+    tag: 'Safety',
+    title: 'Fall Detection: What Caregivers Need to Know',
+    excerpt: 'LOVOT\'s CCTV monitoring can alert you to potential falls in real time. This guide covers setup, sensitivity tuning, and what to do when an alert triggers.',
+    date: '10 Mar 2026',
+  },
+  {
+    icon: '🧠',
+    tag: 'Wellness',
+    title: 'Cognitive Stimulation Activities with LOVOT',
+    excerpt: 'Keep your loved one mentally active with LOVOT-assisted activities: storytelling prompts, simple memory games, and daily trivia sessions tailored for seniors.',
+    date: '5 Mar 2026',
+  },
+  {
+    icon: '👨‍👩‍👧',
+    tag: 'Family',
+    title: 'Staying Connected: Remote Caregiving Tips',
+    excerpt: 'Even when you can\'t be there in person, LOVOT helps bridge the distance. Learn to use the dashboard, call features, and activity reports to stay informed and connected.',
+    date: '28 Feb 2026',
+  },
+  {
+    icon: '🌙',
+    tag: 'Health',
+    title: 'Improving Sleep Quality for Elderly Loved Ones',
+    excerpt: 'LOVOT can help establish calming nighttime routines. This article explores gentle sleep hygiene practices and how to use reminders to support consistent sleep schedules.',
+    date: '20 Feb 2026',
+  },
+];
+
+function initArticles() {
+  renderArticles();
+}
+
+function renderArticles() {
+  const grid = document.getElementById('articles-grid');
+  if (!grid) return;
+
+  grid.innerHTML = articlesData.map(article => `
+    <div class="article-card">
+      <div class="article-card-image">${article.icon}</div>
+      <div class="article-card-body">
+        <span class="article-card-tag">${article.tag}</span>
+        <div class="article-card-title">${article.title}</div>
+        <div class="article-card-excerpt">${article.excerpt}</div>
+        <div class="article-card-footer">
+          <span class="article-card-date">📅 ${article.date}</span>
+          <button class="article-card-readmore">Read More</button>
+        </div>
+      </div>
     </div>
   `).join('');
 }
