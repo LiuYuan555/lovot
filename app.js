@@ -839,7 +839,7 @@ function updateFaceBoxes() {
   div.style.width = faceBoxW + 'px';
   div.style.height = faceBoxH + 'px';
   div.style.transition = 'left 0.08s linear, top 0.08s linear';
-  div.innerHTML = `<span class="face-label">Ah Ma (97%)</span>`;
+  div.innerHTML = `<span class="face-label">Ah Ma</span>`;
   overlay.appendChild(div);
 }
 
@@ -925,10 +925,6 @@ function renderFaceList() {
         <div class="name">${f.name}</div>
         <div class="detail">${f.relation}</div>
       </div>
-      <div class="confidence-bar">
-        <div class="confidence-fill" style="width: ${f.confidence}%"></div>
-      </div>
-      <span class="confidence-text">${f.confidence}%</span>
     </div>
   `).join('');
 }
